@@ -1,0 +1,455 @@
+! 
+! 
+! ====================== 
+! IMAGIC ACCUMULATE FILE 
+! ====================== 
+! 
+! 
+! IMAGIC program: mralign ----------------------------------------------
+! 
+
+ 20-07-2016 18:57:10 ** MRALIGN (vs. 2-May-2014) running **
+  
+Use MPI parallelisation [YES]                      :  YES
+Number of processors to be used [3]                :  8
+ 
+MRA options:
+  FRESH  ADD_NEW_REFS  LOCAL_SEARCH
+Please specify option [FRESH]                      :  FRESH
+ 
+4D options:
+  ALL_REFERENCES  OWN_REF3D_REFERENCES
+Please specify option [ALL_REFERENCES]             :  ALL_REFERENCES
+ 
+Methods available:
+  ALIGNMENT  CORRELATION_ONLY
+Please specify option [ALIGNMENT]                  :  ALIGNMENT
+ 
+Alignment modes available:
+  HORIZONTAL            VERTICAL
+  TRANSLATIONAL         ROTATIONAL
+  BOTH (ROT AND TRANS)  BRUTE_FORCE
+Please specify option [BOTH (ROT AND TRANS)]       :  BOTH (ROT AND TRANS)
+ 
+Options available:
+  ROTATION_FIRST  TRANSLATION_FIRST
+Please specify option [ROTATION_FIRST]             :  ROTATION_FIRST
+ 
+Correlation functions available:
+  CCF  MCF
+Please specify option [CCF]                        :  CCF
+Input file, image loc#s [my_images]                :  classums-2-200
+Output file, loc#s [my_align]                      :  classums-2-200-ali
+Original (pre-treated) file, loc#s [my_filt]       :  classums-2-200
+  
+**WARNING: Input and original file are the same
+  
+Reference file, loc#s [my_ref]                     :  mra-ref1n
+ 
+Options to filter the reference(s):
+  NO_FILTER                 LOWPASS_FILTER
+  BANDPASS_FILTER           CUT_OFF_HIGH_FREQUENCIES
+Please specify option [NO_FILTER]                  :  NO_FILTER
+Max shift (compared to original images) [0.2]      :  0.2
+Min, max rot. angle (compared to originals)
+[-180,180]                                         :  -180,180
+ 
+Precision for rotational alignment:
+  LOW  MEDIUM  HIGH  INTERACTIVE
+Please specify option [LOW]                        :  HIGH
+Min,max radius for rot alignment [0.0,0.7]         :  0.0,0.6
+Number of alignment iterations [5]                 :  5
+Full output of all parameters [NO]                 :  NO
+
+ 20-07-2016 18:57:10 ** Starting multi-reference alignment
+ 
+                        Number crunching processes: 1 - 7
+ 
+ 
+ 20-07-2016 18:57:10 ** Using references  1 to 18 (loc#s 1 to 18)
+ 
+ 20-07-2016 18:57:11 ** Alignment locs #   1, 28 (process 3)
+ 20-07-2016 18:57:11 ** Alignment locs #  29, 48 (process 4)
+ 20-07-2016 18:57:11 ** Alignment locs #  49, 69 (process 5)
+ 20-07-2016 18:57:11 ** Alignment locs #  70, 88 (process 6)
+ 20-07-2016 18:57:11 ** Alignment locs #  89,106 (process 7)
+ 20-07-2016 18:57:11 ** Alignment locs # 107,133 (process 1)
+ 20-07-2016 18:57:11 ** Alignment locs # 134,157 (process 2)
+ 20-07-2016 18:57:17 ** Alignment locs # 158,173 (process 7)
+ 20-07-2016 18:57:17 ** Alignment locs # 174,194 (process 6)
+ 20-07-2016 18:57:17 ** Alignment locs # 195,200 (process 4)
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 195
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 196
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 197
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 198
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 199
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 200
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ **ERROR: Image all zero within mask (FIND_CCC_IN_MASK)
+ **WARNING: FIND_CCC_IN_MASK not terminated successfully for loc # 194
+ 
+ 20-07-2016 18:57:23 ** Alignment finished for all processes
+ 
+ 
+Image name: Class-sums from all-alig2 using classes-2-200.cls
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 20-Jul-2016  Time: 18:57:19
+EM2EM;ALIMASS/TOTCENTER;MRALIGN/ALIGN(18REFS);MRALIGN/ALIGN(18REFS);MSA;CLASSU
+M/SUMS;
+ 
+Image name: Class-sums from all-alig2 using classes-2-200.cls
+Size: 100, 100  Loc: 200  Type: REAL  Cre.Date: 20-Jul-2016  Time: 18:57:20
+EM2EM;ALIMASS/TOTCENTER;MRALIGN/ALIGN(18REFS);MRALIGN/ALIGN(18REFS);MSA;MSA;CL
+ASSUM/SUMS;MRALIGN/ALIGN(18REFS);
+ 
+ 
+ Histogram of reference numbers from classums-2-200-ali:
+ 
+   7   0 |**********
+   2   1 |***
+  10   2 |**************
+  12   3 |*****************
+  22   4 |********************************
+  19   5 |***************************
+  48   6 |*********************************************************************
+  29   7 |******************************************
+   8   8 |************
+   1   9 |*
+   2  10 |***
+   9  11 |*************
+  12  12 |*****************
+   5  13 |*******
+   0  14 |
+   0  15 |
+   9  16 |*************
+   4  17 |******
+   1  18 |*
+   0  19 |
+   0  20 |
+ 
+ Meaning of columns: # in this bin, bin value
+ 
+ 
+ Histogram of 3D reference numbers from classums-2-200-ali:
+ 
+   0   0 |
+ 193   1 |*********************************************************************
+   0   2 |
+   0   3 |
+   7  <3 |
+ 
+ Meaning of columns: # in this bin, bin value
+ 
+ 
+ 
+ M-R-A results:
+ ==============
+ 
+ Average shift              : 2.9509184
+ Average rotation           : 38.0314806
+ Average corr.coeff (CCC)   : -34.3409546
+ Best CCC                   : 0.7240745
+ Location # of best CCC     : 188
+ 
+ 
+ M-R-A files:
+ ============
+ 
+ Input images for alignment : classums-2-200
+ Aligned to references      : mra-ref1n
+ Original images            : classums-2-200
+ Aligned output images      : classums-2-200-ali
+ 
+ 
+ Some useful follow-up IMAGIC commands: 
+ ======================================
+ 
+ DISPLAY                    to visually check the alignment
+ MSA-RUN                    to calculate MSA classification
+ M-R-A                      to add references etc.
+ EXTRACT-ALIGNED-IMAGES     to extract/sum images 'belonging'
+                            to a given reference
+ SUM-ALIGNED-IMAGES         to sum images 'belonging' to a
+                            given reference
+ INCORE-SUM                 to sum (some) aligned images
+ EXCLUSIVE-COPY             to extract/sort aligned images
+ ...
+
+
+ 20-07-2016 18:57:24 ** Finished MRALIGN
+ 
+ 
+Next IMAGIC command suggested: MSA-RUN
+! 
+! IMAGIC program: inc2dmenu --------------------------------------------
+! 
+
+ 20-07-2016 18:57:24 ** INC2DMENU (vs. 21-Feb-2014) running **
+  
+  
+Mode of operation                                  : HIGHPASS
+Input file, image loc#s                            :  classums-2-200-ali
+Output file, image loc#s                           :  classums-2-200-ali-hp
+  
+  The image will be filtered. Please specify:
+  
+Low frequency cut off [0.05]                       :  0.4
+Remaining transm. below cut off [.005]             :  0
+Use MPI parallelisation [YES]                      :  NO
+ 
+Image name: Class-sums from all-alig2 using classes-2-200.cls
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 20-Jul-2016  Time: 18:57:19
+EM2EM;ALIMASS/TOTCENTER;MRALIGN/ALIGN(18REFS);MRALIGN/ALIGN(18REFS);MSA;CLASSU
+M/SUMS;MRALIGN/ALIGN(18REFS);
+ 
+Image name: Class-sums from all-alig2 using classes-2-200.cls (HIGHPASS)
+Size: 100, 100  Loc: 200  Type: REAL  Cre.Date: 20-Jul-2016  Time: 18:57:24
+EM2EM;ALIMASS/TOTCENTER;MRALIGN/ALIGN(18REFS);MRALIGN/ALIGN(18REFS);MSA;MSA;CL
+ASSUM/SUMS;MRALIGN/ALIGN(18REFS);INC2DMENU/HIGHPASS LOW=0.4 TRANS=0.0;
+
+ 20-07-2016 18:57:25 ** Finished INC2DMENU
+ 
+ 
+Next IMAGIC command suggested: DISPLAY-IMAGES
