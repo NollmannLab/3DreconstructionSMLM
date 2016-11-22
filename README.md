@@ -15,3 +15,5 @@ The reminder of m-files in this directory contain functions called by SimT4_Main
 
 5) T4_jobs_IMAGIC folder contains example scripts used for the 3D reconstruction of the T4 bacteriophage.
 jobX.sh contains executable shell scripts (linux) that call routines in IMAGIC. Specific functions and parameters used are described within these script files. Scripts are to be executed sequentially.
+
+jobX.log contains the output log files from the execution of IMAGIC with the scripts provided.
