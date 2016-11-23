@@ -13,7 +13,5 @@ The reminder of m-files in this directory contain functions called by SimT4_Main
 
 4) Functions contains several MATLAB m-files with common functions used by the different folders.
 
-5) T4_jobs_IMAGIC folder contains example scripts used for the 3D reconstruction of the T4 bacteriophage.
-jobX.sh contains executable shell scripts (linux) that call routines in IMAGIC. Specific functions and parameters used are described within these script files. Scripts are to be executed sequentially.
-
-jobX.log contains the output log files from the execution of IMAGIC with the scripts provided.
+5) T4_IMAGIC folder contains an example script used for the 3D reconstruction of the T4 bacteriophage.
+Files are numbered according to the sequential order in which IMAGIC functions were executed, and contain the function names and parameters used for each step. Files are in raw text format.
