@@ -1,0 +1,96 @@
+IMAGIC-COMMAND : th-forw
+ 
+** FORWARD_3D (vs. 29-Apr-2016) welcomes you **
+ 
+Options available                                  : FORWARD
+Input 3D image file [modelFilt]                    : 
+Output file for forward projections [mra-ref1]     : 
+Threshold 3D density value [-99999]                : 
+Use default interpolation (WIDENING) [YES]         : 
+ 
+Choose Euler angles option:
+  PLT_FILE             ANOTHER_HEADER_FILE
+  INTERACTIVE          ASYM_TRIANGLE
+  POINTGROUP_SYMMETRY  RANDOM
+  UNIFORM              STEREO
+  TOMOGRAPHY           CONICAL
+  ORTHOGONAL           SPIRAL
+  TETRAHEDRON          ICOSAHEDRON
+Please specify option [ASYM_TRIANGLE]              : 
+ 
+Point-group symmetry to be used:
+  C1           1            C2           2
+  C3           3            C4           4
+  C5           5            C6           6
+  C7           7            C8           8
+  C9           9            C10          10
+  C11          11           C12          12
+  C13          13           C14          14
+  C15          15           C16          16
+  C17          17           C18          18
+  C19          19           C20          20
+  C21          21           C22          22
+  CN           N            D2           222
+  D3           32           D4           422
+  D5           52           D6           622
+  D7           72           D8           822
+  D9           92           TETRAGONAL   23
+  O (CUBIC)    432          ICOSAHEDRAL  532
+  NONE
+Please specify option [C1]                         : 
+ 
+Option to choose Euler angles:
+  EQUIDIST  RANDOM
+Please specify option [EQUIDIST]                   : 
+Minimum angular distance between projections [3.0] : 
+Also generate mirror projections [YES]             : 
+ 
+Option for Euler angle alpha:
+  ZERO  ROTATE  RANDOM
+Please specify option [ZERO]                       : 
+Wanted angular increment [40]                      : 
+  
+Full output of all parameters [YES]                : 
+  
+Use MPI parallelisation [YES]                      : NO
+
+ 22-11-2016 17:53:42 ** Working on volume 1
+ 
+Image name: model.spi
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 22-Nov-2016  Time: 17:04:31
+EM2EM;FILTER3D/BP LOW=0.1 TRANS=0.0 HIGH=0.4;
+ 
+               Forward               Euler angles             3D
+            projection #      Alpha      Beta     Gamma    membership
+ 
+       1 >             1       0.00      1.00     20.00             1
+       2 >             2       0.00     41.00     20.00             1
+       3 >             3       0.00     41.00     80.97             1
+       4 >             4       0.00     41.00    141.94             1
+       5 >             5       0.00     81.00     20.00             1
+       6 >             6       0.00     81.00     60.50             1
+       7 >             7       0.00     81.00    101.00             1
+       8 >             8       0.00     81.00    141.50             1
+       9 >             9       0.00    121.00     20.00             1
+      10 >            10       0.00    121.00     66.67             1
+      11 >            11       0.00    121.00    113.33             1
+      12 >            12       0.00    121.00    160.00             1
+      13 >            13       0.00    161.00     20.00             1
+      14 >            14       0.00    161.00    142.86             1
+      15 >            15       0.00      1.00    -20.00             1
+      16 >            16       0.00     41.00    -20.00             1
+      17 >            17       0.00     41.00    -80.97             1
+      18 >            18       0.00     41.00   -141.94             1
+      19 >            19       0.00     81.00    -20.00             1
+      20 >            20       0.00     81.00    -60.50             1
+      21 >            21       0.00     81.00   -101.00             1
+      22 >            22       0.00     81.00   -141.50             1
+      23 >            23       0.00    121.00    -20.00             1
+      24 >            24       0.00    121.00    -66.67             1
+      25 >            25       0.00    121.00   -113.33             1
+      26 >            26       0.00    121.00   -160.00             1
+      27 >            27       0.00    161.00    -20.00             1
+      28 >            28       0.00    161.00   -142.86             1
+ 
+ 
+IMAGIC-COMMAND : 

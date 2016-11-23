@@ -1,0 +1,731 @@
+IMAGIC-COMMAND : THREED-RECONSTRUCTION
+ 
+** TRUE_3D (vs. 29-Apr-2016) welcomes you **
+ 
+ 
+Mode of 4D operation:
+  ALL_IN_ONE_3D              3D_MEMBERSHIP_IN_HEADER
+  RANDOM_3D_MEMBERSHIP       SEQUENTIAL_ASSIGNMENT
+  MULTIPLE_RANDOM_ASSIGN     SPLIT_3D_MEMBERSHIP
+  FOURIER_SHELL_CORRELATION
+Please specify option [3D_MEMBERSHIP_IN_HEADER]    : 
+Minimal number or fraction of images per 3D [0.7]  : 
+ 
+Point-group symmetry to be used:
+  C1           1            C2           2
+  C3           3            C4           4
+  C5           5            C6           6
+  C7           7            C8           8
+  C9           9            C10          10
+  C11          11           C12          12
+  C13          13           C14          14
+  C15          15           C16          16
+  C17          17           C18          18
+  C19          19           C20          20
+  C21          21           C22          22
+  CN           N            D2           222
+  D3           32           D4           422
+  D5           52           D6           622
+  D7           72           D8           822
+  D9           92           TETRAGONAL   23
+  O (CUBIC)    432          ICOSAHEDRAL  532
+  NONE
+Please specify option [C1]                         : C6
+Use default 3D reconstruction options [YES]        : 
+Input 2D (class-sum) images, NO loc#s [my_classum] : classums-1-200-alihp
+ 
+Source of Euler angles:
+  ANGREC_HEADER        MRA_HEADER
+  RANDOM_EULER_ANGLES
+Please specify option [ANGREC_HEADER_VALUES]       : 
+  
+Output file for 3D reconstructions, NO loc#s
+[my_3d]                                            : 3D-classums-1-200-alihp-1
+Output file for re-projection images, NO loc#s
+[my_repro]                                         : 
+Output file for error projection images, NO loc#
+[my_err]                                           : 
+  
+Spherically mask the reconstruction [YES]          : 
+Radius of the mask [0.8]                           : 
+Hamming window factor [0.75]                       : 
+Object size as fraction of image size [0.8]        : 
+Also create a normalized 3D volume [NO]            : 
+ 
+MPI parallelisation:
+  ONLY_3D  BOTH  NO_MPI
+Please specify option [NO_MPI]                     : 
+
+ 22-11-2016 18:46:45 ** Starting 3D calculations
+ 
+ Used point-group symmetry is                      : C6          
+ Number of original projections for reconstruction : 200
+ Total number of projections after symmetrization  : 1200
+ Minimum number of images per 3D set to            : 140
+ Number of 3Ds to be created                       : 1
+ 
+ 
+      =================================
+       Reconstructing volume number: 1
+      =================================
+ 
+ Number of input images for this 3D reconstruction : 200
+ 
+ 
+ 22-11-2016 18:46:47 ** Working on 3D group image #   1
+ 22-11-2016 18:46:47 ** Working on 3D group image #   2
+ 22-11-2016 18:46:47 ** Working on 3D group image #   3
+ 22-11-2016 18:46:47 ** Working on 3D group image #   4
+ 22-11-2016 18:46:47 ** Working on 3D group image #   5
+ 22-11-2016 18:46:47 ** Working on 3D group image #   6
+ 22-11-2016 18:46:47 ** Working on 3D group image #   7
+ 22-11-2016 18:46:48 ** Working on 3D group image #   8
+ 22-11-2016 18:46:48 ** Working on 3D group image #   9
+ 22-11-2016 18:46:48 ** Working on 3D group image #  10
+ 22-11-2016 18:46:48 ** Working on 3D group image #  11
+ 22-11-2016 18:46:48 ** Working on 3D group image #  12
+ 22-11-2016 18:46:48 ** Working on 3D group image #  13
+ 22-11-2016 18:46:48 ** Working on 3D group image #  14
+ 22-11-2016 18:46:48 ** Working on 3D group image #  15
+ 22-11-2016 18:46:49 ** Working on 3D group image #  16
+ 22-11-2016 18:46:49 ** Working on 3D group image #  17
+ 22-11-2016 18:46:49 ** Working on 3D group image #  18
+ 22-11-2016 18:46:49 ** Working on 3D group image #  19
+ 22-11-2016 18:46:49 ** Working on 3D group image #  20
+ 22-11-2016 18:46:49 ** Working on 3D group image #  21
+ 22-11-2016 18:46:49 ** Working on 3D group image #  22
+ 22-11-2016 18:46:49 ** Working on 3D group image #  23
+ 22-11-2016 18:46:49 ** Working on 3D group image #  24
+ 22-11-2016 18:46:50 ** Working on 3D group image #  25
+ 22-11-2016 18:46:50 ** Working on 3D group image #  26
+ 22-11-2016 18:46:50 ** Working on 3D group image #  27
+ 22-11-2016 18:46:50 ** Working on 3D group image #  28
+ 22-11-2016 18:46:50 ** Working on 3D group image #  29
+ 22-11-2016 18:46:50 ** Working on 3D group image #  30
+ 22-11-2016 18:46:50 ** Working on 3D group image #  31
+ 22-11-2016 18:46:50 ** Working on 3D group image #  32
+ 22-11-2016 18:46:50 ** Working on 3D group image #  33
+ 22-11-2016 18:46:51 ** Working on 3D group image #  34
+ 22-11-2016 18:46:51 ** Working on 3D group image #  35
+ 22-11-2016 18:46:51 ** Working on 3D group image #  36
+ 22-11-2016 18:46:51 ** Working on 3D group image #  37
+ 22-11-2016 18:46:51 ** Working on 3D group image #  38
+ 22-11-2016 18:46:51 ** Working on 3D group image #  39
+ 22-11-2016 18:46:51 ** Working on 3D group image #  40
+ 22-11-2016 18:46:51 ** Working on 3D group image #  41
+ 22-11-2016 18:46:51 ** Working on 3D group image #  42
+ 22-11-2016 18:46:52 ** Working on 3D group image #  43
+ 22-11-2016 18:46:52 ** Working on 3D group image #  44
+ 22-11-2016 18:46:52 ** Working on 3D group image #  45
+ 22-11-2016 18:46:52 ** Working on 3D group image #  46
+ 22-11-2016 18:46:52 ** Working on 3D group image #  47
+ 22-11-2016 18:46:52 ** Working on 3D group image #  48
+ 22-11-2016 18:46:52 ** Working on 3D group image #  49
+ 22-11-2016 18:46:52 ** Working on 3D group image #  50
+ 22-11-2016 18:46:53 ** Working on 3D group image #  51
+ 22-11-2016 18:46:53 ** Working on 3D group image #  52
+ 22-11-2016 18:46:53 ** Working on 3D group image #  53
+ 22-11-2016 18:46:53 ** Working on 3D group image #  54
+ 22-11-2016 18:46:53 ** Working on 3D group image #  55
+ 22-11-2016 18:46:53 ** Working on 3D group image #  56
+ 22-11-2016 18:46:53 ** Working on 3D group image #  57
+ 22-11-2016 18:46:53 ** Working on 3D group image #  58
+ 22-11-2016 18:46:53 ** Working on 3D group image #  59
+ 22-11-2016 18:46:54 ** Working on 3D group image #  60
+ 22-11-2016 18:46:54 ** Working on 3D group image #  61
+ 22-11-2016 18:46:54 ** Working on 3D group image #  62
+ 22-11-2016 18:46:54 ** Working on 3D group image #  63
+ 22-11-2016 18:46:54 ** Working on 3D group image #  64
+ 22-11-2016 18:46:54 ** Working on 3D group image #  65
+ 22-11-2016 18:46:54 ** Working on 3D group image #  66
+ 22-11-2016 18:46:54 ** Working on 3D group image #  67
+ 22-11-2016 18:46:54 ** Working on 3D group image #  68
+ 22-11-2016 18:46:55 ** Working on 3D group image #  69
+ 22-11-2016 18:46:55 ** Working on 3D group image #  70
+ 22-11-2016 18:46:55 ** Working on 3D group image #  71
+ 22-11-2016 18:46:55 ** Working on 3D group image #  72
+ 22-11-2016 18:46:55 ** Working on 3D group image #  73
+ 22-11-2016 18:46:55 ** Working on 3D group image #  74
+ 22-11-2016 18:46:55 ** Working on 3D group image #  75
+ 22-11-2016 18:46:55 ** Working on 3D group image #  76
+ 22-11-2016 18:46:55 ** Working on 3D group image #  77
+ 22-11-2016 18:46:56 ** Working on 3D group image #  78
+ 22-11-2016 18:46:56 ** Working on 3D group image #  79
+ 22-11-2016 18:46:56 ** Working on 3D group image #  80
+ 22-11-2016 18:46:56 ** Working on 3D group image #  81
+ 22-11-2016 18:46:56 ** Working on 3D group image #  82
+ 22-11-2016 18:46:56 ** Working on 3D group image #  83
+ 22-11-2016 18:46:56 ** Working on 3D group image #  84
+ 22-11-2016 18:46:56 ** Working on 3D group image #  85
+ 22-11-2016 18:46:57 ** Working on 3D group image #  86
+ 22-11-2016 18:46:57 ** Working on 3D group image #  87
+ 22-11-2016 18:46:57 ** Working on 3D group image #  88
+ 22-11-2016 18:46:57 ** Working on 3D group image #  89
+ 22-11-2016 18:46:57 ** Working on 3D group image #  90
+ 22-11-2016 18:46:57 ** Working on 3D group image #  91
+ 22-11-2016 18:46:57 ** Working on 3D group image #  92
+ 22-11-2016 18:46:57 ** Working on 3D group image #  93
+ 22-11-2016 18:46:57 ** Working on 3D group image #  94
+ 22-11-2016 18:46:58 ** Working on 3D group image #  95
+ 22-11-2016 18:46:58 ** Working on 3D group image #  96
+ 22-11-2016 18:46:58 ** Working on 3D group image #  97
+ 22-11-2016 18:46:58 ** Working on 3D group image #  98
+ 22-11-2016 18:46:58 ** Working on 3D group image #  99
+ 22-11-2016 18:46:58 ** Working on 3D group image # 100
+ 22-11-2016 18:46:58 ** Working on 3D group image # 101
+ 22-11-2016 18:46:58 ** Working on 3D group image # 102
+ 22-11-2016 18:46:58 ** Working on 3D group image # 103
+ 22-11-2016 18:46:59 ** Working on 3D group image # 104
+ 22-11-2016 18:46:59 ** Working on 3D group image # 105
+ 22-11-2016 18:46:59 ** Working on 3D group image # 106
+ 22-11-2016 18:46:59 ** Working on 3D group image # 107
+ 22-11-2016 18:46:59 ** Working on 3D group image # 108
+ 22-11-2016 18:46:59 ** Working on 3D group image # 109
+ 22-11-2016 18:46:59 ** Working on 3D group image # 110
+ 22-11-2016 18:46:59 ** Working on 3D group image # 111
+ 22-11-2016 18:46:59 ** Working on 3D group image # 112
+ 22-11-2016 18:47:00 ** Working on 3D group image # 113
+ 22-11-2016 18:47:00 ** Working on 3D group image # 114
+ 22-11-2016 18:47:00 ** Working on 3D group image # 115
+ 22-11-2016 18:47:00 ** Working on 3D group image # 116
+ 22-11-2016 18:47:00 ** Working on 3D group image # 117
+ 22-11-2016 18:47:00 ** Working on 3D group image # 118
+ 22-11-2016 18:47:00 ** Working on 3D group image # 119
+ 22-11-2016 18:47:00 ** Working on 3D group image # 120
+ 22-11-2016 18:47:00 ** Working on 3D group image # 121
+ 22-11-2016 18:47:01 ** Working on 3D group image # 122
+ 22-11-2016 18:47:01 ** Working on 3D group image # 123
+ 22-11-2016 18:47:01 ** Working on 3D group image # 124
+ 22-11-2016 18:47:01 ** Working on 3D group image # 125
+ 22-11-2016 18:47:01 ** Working on 3D group image # 126
+ 22-11-2016 18:47:01 ** Working on 3D group image # 127
+ 22-11-2016 18:47:01 ** Working on 3D group image # 128
+ 22-11-2016 18:47:01 ** Working on 3D group image # 129
+ 22-11-2016 18:47:02 ** Working on 3D group image # 130
+ 22-11-2016 18:47:02 ** Working on 3D group image # 131
+ 22-11-2016 18:47:02 ** Working on 3D group image # 132
+ 22-11-2016 18:47:02 ** Working on 3D group image # 133
+ 22-11-2016 18:47:02 ** Working on 3D group image # 134
+ 22-11-2016 18:47:02 ** Working on 3D group image # 135
+ 22-11-2016 18:47:02 ** Working on 3D group image # 136
+ 22-11-2016 18:47:02 ** Working on 3D group image # 137
+ 22-11-2016 18:47:02 ** Working on 3D group image # 138
+ 22-11-2016 18:47:03 ** Working on 3D group image # 139
+ 22-11-2016 18:47:03 ** Working on 3D group image # 140
+ 22-11-2016 18:47:03 ** Working on 3D group image # 141
+ 22-11-2016 18:47:03 ** Working on 3D group image # 142
+ 22-11-2016 18:47:03 ** Working on 3D group image # 143
+ 22-11-2016 18:47:03 ** Working on 3D group image # 144
+ 22-11-2016 18:47:03 ** Working on 3D group image # 145
+ 22-11-2016 18:47:03 ** Working on 3D group image # 146
+ 22-11-2016 18:47:03 ** Working on 3D group image # 147
+ 22-11-2016 18:47:04 ** Working on 3D group image # 148
+ 22-11-2016 18:47:04 ** Working on 3D group image # 149
+ 22-11-2016 18:47:04 ** Working on 3D group image # 150
+ 22-11-2016 18:47:04 ** Working on 3D group image # 151
+ 22-11-2016 18:47:04 ** Working on 3D group image # 152
+ 22-11-2016 18:47:04 ** Working on 3D group image # 153
+ 22-11-2016 18:47:04 ** Working on 3D group image # 154
+ 22-11-2016 18:47:04 ** Working on 3D group image # 155
+ 22-11-2016 18:47:04 ** Working on 3D group image # 156
+ 22-11-2016 18:47:05 ** Working on 3D group image # 157
+ 22-11-2016 18:47:05 ** Working on 3D group image # 158
+ 22-11-2016 18:47:05 ** Working on 3D group image # 159
+ 22-11-2016 18:47:05 ** Working on 3D group image # 160
+ 22-11-2016 18:47:05 ** Working on 3D group image # 161
+ 22-11-2016 18:47:05 ** Working on 3D group image # 162
+ 22-11-2016 18:47:05 ** Working on 3D group image # 163
+ 22-11-2016 18:47:05 ** Working on 3D group image # 164
+ 22-11-2016 18:47:06 ** Working on 3D group image # 165
+ 22-11-2016 18:47:06 ** Working on 3D group image # 166
+ 22-11-2016 18:47:06 ** Working on 3D group image # 167
+ 22-11-2016 18:47:06 ** Working on 3D group image # 168
+ 22-11-2016 18:47:06 ** Working on 3D group image # 169
+ 22-11-2016 18:47:06 ** Working on 3D group image # 170
+ 22-11-2016 18:47:06 ** Working on 3D group image # 171
+ 22-11-2016 18:47:06 ** Working on 3D group image # 172
+ 22-11-2016 18:47:06 ** Working on 3D group image # 173
+ 22-11-2016 18:47:07 ** Working on 3D group image # 174
+ 22-11-2016 18:47:07 ** Working on 3D group image # 175
+ 22-11-2016 18:47:07 ** Working on 3D group image # 176
+ 22-11-2016 18:47:07 ** Working on 3D group image # 177
+ 22-11-2016 18:47:07 ** Working on 3D group image # 178
+ 22-11-2016 18:47:07 ** Working on 3D group image # 179
+ 22-11-2016 18:47:07 ** Working on 3D group image # 180
+ 22-11-2016 18:47:07 ** Working on 3D group image # 181
+ 22-11-2016 18:47:07 ** Working on 3D group image # 182
+ 22-11-2016 18:47:08 ** Working on 3D group image # 183
+ 22-11-2016 18:47:08 ** Working on 3D group image # 184
+ 22-11-2016 18:47:08 ** Working on 3D group image # 185
+ 22-11-2016 18:47:08 ** Working on 3D group image # 186
+ 22-11-2016 18:47:08 ** Working on 3D group image # 187
+ 22-11-2016 18:47:08 ** Working on 3D group image # 188
+ 22-11-2016 18:47:08 ** Working on 3D group image # 189
+ 22-11-2016 18:47:08 ** Working on 3D group image # 190
+ 22-11-2016 18:47:09 ** Working on 3D group image # 191
+ 22-11-2016 18:47:09 ** Working on 3D group image # 192
+ 22-11-2016 18:47:09 ** Working on 3D group image # 193
+ 22-11-2016 18:47:09 ** Working on 3D group image # 194
+ 22-11-2016 18:47:09 ** Working on 3D group image # 195
+ 22-11-2016 18:47:09 ** Working on 3D group image # 196
+ 22-11-2016 18:47:09 ** Working on 3D group image # 197
+ 22-11-2016 18:47:09 ** Working on 3D group image # 198
+ 22-11-2016 18:47:09 ** Working on 3D group image # 199
+ 22-11-2016 18:47:10 ** Working on 3D group image # 200
+
+ 22-11-2016 18:47:10 ** 3D reconstruction completed
+
+ 22-11-2016 18:47:10 ** Calculating re-projection images
+ 
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   1
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   2
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   3
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   4
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   5
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   6
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   7
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   8
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image   9
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  10
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  11
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  12
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  13
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  14
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  15
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  16
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  17
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  18
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  19
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  20
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  21
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  22
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  23
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  24
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  25
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  26
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  27
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  28
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  29
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  30
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  31
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  32
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  33
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  34
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  35
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  36
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  37
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  38
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  39
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  40
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  41
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  42
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  43
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  44
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  45
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  46
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  47
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  48
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  49
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  50
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  51
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  52
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  53
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  54
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  55
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  56
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  57
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  58
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  59
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  60
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  61
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  62
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  63
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  64
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  65
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  66
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  67
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  68
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  69
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  70
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  71
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  72
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  73
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  74
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  75
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  76
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  77
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  78
+ 22-11-2016 18:47:10 ** Re-project 3D -> 2D image  79
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  80
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  81
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  82
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  83
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  84
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  85
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  86
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  87
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  88
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  89
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  90
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  91
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  92
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  93
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  94
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  95
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  96
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  97
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  98
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image  99
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 100
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 101
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 102
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 103
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 104
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 105
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 106
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 107
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 108
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 109
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 110
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 111
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 112
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 113
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 114
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 115
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 116
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 117
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 118
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 119
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 120
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 121
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 122
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 123
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 124
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 125
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 126
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 127
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 128
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 129
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 130
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 131
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 132
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 133
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 134
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 135
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 136
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 137
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 138
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 139
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 140
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 141
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 142
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 143
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 144
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 145
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 146
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 147
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 148
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 149
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 150
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 151
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 152
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 153
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 154
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 155
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 156
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 157
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 158
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 159
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 160
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 161
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 162
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 163
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 164
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 165
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 166
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 167
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 168
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 169
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 170
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 171
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 172
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 173
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 174
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 175
+ 22-11-2016 18:47:11 ** Re-project 3D -> 2D image 176
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 177
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 178
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 179
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 180
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 181
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 182
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 183
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 184
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 185
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 186
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 187
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 188
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 189
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 190
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 191
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 192
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 193
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 194
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 195
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 196
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 197
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 198
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 199
+ 22-11-2016 18:47:12 ** Re-project 3D -> 2D image 200
+ 
+ **WARNING: All pixels are zero in image loc 200
+ 
+ 22-11-2016 18:47:12 ** All re-projection images calculated
+  
+       ===========================================================
+        Error between re-projection and input image (sorted list) 
+       ===========================================================
+ 
+               Loc    Class                                  Error
+                #        #     Alpha     Beta    Gamma       in 3-D
+
+     1:>      200      200    ******   ******   ******       0.00 %
+     2:>        9        9       0.0     91.0     -1.0       7.22 %
+     3:>      188      188       0.0     89.0     -1.0       9.42 %
+     4:>       93       93       0.0     89.0     -1.0       9.43 %
+     5:>      176      176       0.0     89.0     -1.0       9.72 %
+     6:>       11       11       0.0     87.0    -21.0       9.73 %
+     7:>       41       41       0.0     85.0     27.1       9.81 %
+     8:>        2        2       0.0     91.0     -1.0      10.07 %
+     9:>      102      102       0.0     61.0    -26.2      10.29 %
+    10:>       34       34       1.0     91.0     -1.0      10.46 %
+    11:>       22       22       1.0     91.0     -1.0      10.49 %
+    12:>       56       56       1.0    123.0    -20.1      10.56 %
+    13:>       16       16       0.0     19.0    -25.6      10.64 %
+    14:>       96       96      -1.0     73.0    -21.9      10.64 %
+    15:>       68       68       0.0     89.0     -1.0      10.74 %
+    16:>       85       85       0.0    103.0    -27.7      10.81 %
+    17:>        5        5       0.0     87.0     27.0      11.16 %
+    18:>       13       13       1.0    127.0    -21.0      11.48 %
+    19:>      174      174       0.0     89.0     -1.0      11.49 %
+    20:>      101      101       0.0     75.0    -27.9      11.86 %
+    21:>      162      162       0.0    119.0    -26.2      12.03 %
+    22:>       44       44       0.0     89.0     -1.0      12.20 %
+    23:>      185      185       6.0    163.0    -14.7      12.22 %
+    24:>       27       27      13.0      5.0     23.9      12.50 %
+    25:>      109      109       1.0     89.0     -1.0      12.58 %
+    26:>       48       48       0.0    109.0    -24.3      13.18 %
+    27:>      127      127       0.0     57.0    -24.8      13.21 %
+    28:>       14       14       0.0    119.0    -26.2      13.33 %
+    29:>      143      143      -6.0     17.0    -21.5      13.34 %
+    30:>       71       71       0.0     53.0    -26.0      13.38 %
+    31:>      177      177       0.0     91.0     -1.0      13.49 %
+    32:>       50       50       0.0     79.0    -19.3      13.49 %
+    33:>      155      155      -4.0     21.0    -23.3      13.49 %
+    34:>      129      129      -1.0     83.0     -3.0      13.60 %
+    35:>      112      112       0.0     89.0     -1.0      13.76 %
+    36:>       49       49       0.0     85.0     25.1      13.82 %
+    37:>      154      154       0.0     61.0     -1.0      13.88 %
+    38:>       70       70      -1.0     57.0    -12.9      13.95 %
+    39:>      104      104      -1.0     77.0    -27.7      13.95 %
+    40:>      120      120       0.0    103.0    -27.7      14.04 %
+    41:>       69       69      -1.0     75.0     27.9      14.06 %
+    42:>      124      124       2.0     21.0    -28.9      14.06 %
+    43:>      132      132       0.0    117.0     27.9      14.09 %
+    44:>      128      128       1.0     91.0     -1.0      14.18 %
+    45:>       32       32       0.0     91.0     -1.0      14.25 %
+    46:>       39       39       1.0     89.0     -1.0      14.29 %
+    47:>      184      184      -1.0     89.0     -1.0      14.32 %
+    48:>      166      166       1.0    137.0    -21.5      14.51 %
+    49:>      105      105       8.0    161.0    -25.6      14.61 %
+    50:>      140      140       2.0     91.0     -1.0      14.67 %
+    51:>       98       98       0.0     61.0    -12.4      14.78 %
+    52:>        4        4      -9.0      5.0     23.9      14.95 %
+    53:>      149      149       0.0    125.0     -3.4      15.04 %
+    54:>       76       76      -2.0     89.0     -1.0      15.10 %
+    55:>       31       31      -1.0     43.0    -21.5      15.44 %
+    56:>      147      147       0.0     91.0     -1.0      15.47 %
+    57:>       18       18       0.0     89.0     -1.0      15.58 %
+    58:>       59       59      -1.0     63.0    -21.2      15.59 %
+    59:>       82       82      -1.0     61.0    -12.4      15.63 %
+    60:>      182      182      -2.0     87.0     -1.0      15.65 %
+    61:>      163      163       0.0     67.0    -22.7      16.53 %
+    62:>      121      121       0.0     79.0    -27.5      16.60 %
+    63:>      179      179       2.0     19.0    -19.4      16.92 %
+    64:>       35       35      -2.0     87.0     -1.0      16.99 %
+    65:>       73       73      -1.0     57.0    -20.1      17.37 %
+    66:>       94       94      -1.0     83.0     -3.0      17.42 %
+    67:>       17       17       0.0    103.0    -27.7      17.66 %
+    68:>      125      125       0.0     89.0     -1.0      18.01 %
+    69:>       81       81       0.0     61.0     28.4      18.06 %
+    70:>       79       79       2.0     91.0     -1.0      18.08 %
+    71:>       20       20       1.0    159.0     23.3      18.77 %
+    72:>       33       33       2.0     91.0     -1.0      19.09 %
+    73:>       53       53       2.0     65.0      9.8      19.16 %
+    74:>      100      100       2.0    137.0     -6.9      19.32 %
+    75:>      118      118       1.0     19.0    -19.4      19.44 %
+    76:>       24       24       1.0     61.0    -12.4      19.57 %
+    77:>      165      165       1.0     83.0      5.0      19.64 %
+    78:>      192      192       2.0    159.0    -17.7      19.69 %
+    79:>      103      103       0.0     69.0    -22.4      20.01 %
+    80:>       74       74       0.0     73.0    -28.2      20.19 %
+    81:>       61       61       1.0    141.0    -20.1      20.40 %
+    82:>       57       57       0.0     63.0    -27.9      20.74 %
+    83:>      106      106       0.0    127.0    -26.0      20.84 %
+    84:>       97       97       1.0    119.0     28.4      21.12 %
+    85:>       77       77       2.0     91.0     -1.0      21.15 %
+    86:>      159      159       1.0    117.0    -12.2      21.52 %
+    87:>      115      115      -3.0    137.0      1.0      21.61 %
+    88:>       63       63      -1.0     39.0    -20.1      21.67 %
+    89:>       38       38      -1.0     43.0    -21.5      21.75 %
+    90:>      113      113       2.0     67.0      3.2      21.77 %
+    91:>      160      160      -2.0    161.0    -25.6      21.95 %
+    92:>      180      180       0.0     89.0     -1.0      22.21 %
+    93:>      126      126       2.0    125.0     -8.3      22.30 %
+    94:>      175      175       0.0    119.0    -26.2      22.36 %
+    95:>       90       90      -1.0     85.0    -19.1      22.37 %
+    96:>       88       88      -1.0     21.0     28.9      22.62 %
+    97:>       29       29       0.0    105.0     27.9      22.69 %
+    98:>       23       23      -3.0     63.0     -1.0      22.72 %
+    99:>      137      137       0.0    107.0     11.5      23.01 %
+   100:>      187      187       0.0     91.0     -1.0      23.07 %
+   101:>      116      116      -2.0     45.0     -6.7      23.09 %
+   102:>      194      194       1.0     87.0     27.0      23.29 %
+   103:>      167      167      -1.0    105.0    -11.4      23.66 %
+   104:>       83       83      -2.0     75.0     27.9      23.71 %
+   105:>       45       45       0.0     91.0    -23.0      24.24 %
+   106:>       66       66       0.0    141.0    -26.4      24.36 %
+   107:>       47       47      -1.0     89.0     -1.0      24.59 %
+   108:>      119      119       1.0     69.0    -24.6      24.97 %
+   109:>      161      161       0.0    123.0    -20.1      25.27 %
+   110:>       95       95      -1.0     89.0     -1.0      25.53 %
+   111:>       37       37       0.0    121.0     29.0      25.59 %
+   112:>      130      130      -2.0     43.0     -9.8      25.68 %
+   113:>      141      141       0.0     71.0     -1.0      25.72 %
+   114:>        7        7       0.0     57.0    -20.1      25.84 %
+   115:>       25       25       1.0     91.0     -1.0      26.03 %
+   116:>       86       86      -2.0     93.0     27.0      26.05 %
+   117:>      111      111      -1.0    125.0    -23.0      26.44 %
+   118:>      133      133      -1.0    159.0    -23.3      26.62 %
+   119:>      190      190       1.0     73.0     -9.4      27.30 %
+   120:>       65       65      -2.0    117.0     21.2      27.55 %
+   121:>      150      150       0.0    137.0    -24.5      27.61 %
+   122:>       30       30      -2.0     83.0     -3.0      27.71 %
+   123:>      152      152      -2.0    137.0      1.0      28.08 %
+   124:>      170      170       2.0     41.0      1.0      28.31 %
+   125:>      123      123       1.0     75.0    -27.9      29.01 %
+   126:>       89       89      -1.0     75.0     27.9      29.22 %
+   127:>      186      186       1.0    137.0    -21.5      30.51 %
+   128:>       84       84      -2.0     45.0    -20.8      30.83 %
+   129:>      148      148       2.0    137.0    -21.5      30.87 %
+   130:>       12       12       2.0    111.0    -24.6      31.04 %
+   131:>       54       54       1.0    139.0     13.2      31.67 %
+   132:>      110      110       2.0    135.0    -20.8      32.12 %
+   133:>       42       42      -1.0    107.0     -9.4      32.14 %
+   134:>      191      191       1.0    109.0      3.1      32.21 %
+   135:>      197      197       4.0    159.0     23.3      32.70 %
+   136:>      117      117       1.0     43.0    -21.5      32.78 %
+   137:>       62       62      -4.0     21.0     23.3      33.18 %
+   138:>       60       60      -1.0    141.0    -23.2      33.60 %
+   139:>       52       52       3.0    135.0    -23.6      34.40 %
+   140:>       28       28      -2.0     73.0     11.5      34.71 %
+   141:>      136      136       7.0    163.0    -21.5      35.72 %
+   142:>      164      164       1.0     75.0     13.4      35.91 %
+   143:>       75       75       4.0     19.0    -19.4      35.98 %
+   144:>      183      183       1.0     21.0     17.7      36.93 %
+   145:>       55       55      -1.0    159.0     17.7      37.00 %
+   146:>       36       36      -9.0    161.0      7.1      37.14 %
+   147:>       99       99      -1.0    115.0    -16.4      37.17 %
+   148:>      135      135       2.0     85.0     21.1      37.31 %
+   149:>       64       64      -4.0     19.0     19.4      37.39 %
+   150:>       78       78      -1.0    159.0     23.3      37.59 %
+   151:>      173      173       1.0    115.0     23.1      37.73 %
+   152:>       19       19       3.0    119.0     12.4      37.90 %
+   153:>      108      108       0.0    111.0     24.6      38.12 %
+   154:>      157      157       1.0    111.0     24.6      38.41 %
+   155:>      156      156      -3.0     19.0     19.4      38.66 %
+   156:>      131      131       1.0     23.0    -21.5      39.60 %
+   157:>      122      122       3.0     19.0     25.6      40.29 %
+   158:>      181      181      -6.0    159.0    -12.2      41.16 %
+   159:>       91       91       1.0     21.0     -6.6      41.95 %
+   160:>      195      195      12.0    159.0    -23.3      42.20 %
+   161:>      114      114      49.0    153.0    -18.6      43.41 %
+   162:>        3        3     -32.0    155.0    -19.9      44.85 %
+   163:>       40       40       7.0    161.0      7.1      45.57 %
+   164:>      138      138       4.0    135.0     -1.0      46.21 %
+   165:>      193      193       8.0     21.0      6.6      46.57 %
+   166:>      145      145     -10.0     19.0     19.4      47.60 %
+   167:>       72       72      -7.0    163.0      7.8      48.10 %
+   168:>      196      196    -170.0     31.0    -12.6      48.15 %
+   169:>        1        1       6.0    161.0    -19.4      48.36 %
+   170:>      171      171      -3.0     21.0      6.6      48.62 %
+   171:>      199      199       2.0    105.0     -1.0      48.68 %
+   172:>       21       21       4.0    163.0      7.8      49.57 %
+   173:>      142      142      12.0     17.0     14.7      50.14 %
+   174:>       10       10       5.0     21.0    -12.2      50.94 %
+   175:>       51       51       1.0     41.0      1.0      50.96 %
+   176:>       46       46       0.0     39.0     -1.0      51.32 %
+   177:>      153      153     -49.0     25.0    -19.9      52.67 %
+   178:>       92       92       0.0     43.0     -1.0      53.51 %
+   179:>       80       80      29.0    163.0    -21.5      53.64 %
+   180:>      172      172     -15.0    157.0    -21.5      53.81 %
+   181:>       26       26     169.0     27.0      5.4      55.04 %
+   182:>      139      139    -105.0     25.0    -24.7      55.68 %
+   183:>      151      151     -14.0    161.0    -19.4      56.75 %
+   184:>      198      198      26.0    179.0      1.0      56.86 %
+   185:>      158      158    -145.0     27.0     -9.8      57.29 %
+   186:>      107      107    -128.0      1.0      1.0      57.54 %
+   187:>       87       87      13.0     21.0      1.0      58.75 %
+   188:>      168      168     -31.0    165.0     24.2      60.01 %
+   189:>       15       15     -30.0    165.0     24.2      60.31 %
+   190:>      146      146      22.0     11.0     22.0      60.62 %
+   191:>      178      178      26.0    173.0    -17.4      62.38 %
+   192:>       43       43     -20.0    167.0    -18.8      63.64 %
+   193:>      134      134     -15.0    173.0    -17.4      63.65 %
+   194:>       58       58     -40.0    169.0     22.0      63.74 %
+   195:>       67       67    -101.0    173.0    -17.4      63.88 %
+   196:>        8        8      15.0     11.0     22.0      64.02 %
+   197:>      169      169      16.0    171.0     13.8      64.66 %
+   198:>        6        6      34.0      7.0    -17.4      64.95 %
+   199:>      189      189     -43.0    179.0     -1.0      66.30 %
+   200:>      144      144     -97.0      7.0     17.4      74.98 %
+ 
+               Loc    Class                                  Error
+                #        #     Alpha     Beta    Gamma       in 3-D
+
+
+  Average correlation error in this 3D reconstruction: 28.35 %
+ 
+ 
+  3D reconstruction summary:
+ 
+  Total number of input images            : 200
+  Number of 3D volumes                    : 1
+  Minimum fraction of images per 3D (set) : 0.7
+  Minimum number of images per 3D         : 140
+ 
+ 
+  The 3D reconstruction results were stored in the following files:
+ 
+  Input header file           : classums-1-200-alihp
+  3D volume                   : 3D-classums-1-200-alihp-1
+  Results (text) file         : 3D-classums-1-200-alihp-1.lis
+  Sorted loc#s with 3D error  : 3D-classums-1-200-alihp-1_lis.plt
+  Re-projection images        : my_repro
+  Error images                : my_err
+ 
+ 
+  Some useful next IMAGIC commands:
+ 
+  THREED-AUTOMATIC-MASKING    to remove background 3D noise
+  TRUE-THREED-RECONSTRUCTION  to refine 3D reconstruction
+  EXCLUSIVE-COPY              to exclude bad images to improve 3D map
+  THREED-SURFACE              to visualise 3D map
+  EM2EM                       to export 3D map for visualisation, etc.
+  THREED-FORWARD-PROJECTION   to make new anchor set / new MRA references
+ 
+
+ 22-11-2016 18:47:13 ** Finished TRUE_3D
+ 
+ 
+Next IMAGIC command suggested: THREED-AUTOMATIC-MASKING

@@ -1,0 +1,89 @@
+IMAGIC-COMMAND : NORM-VARIANCE
+ 
+** INC2DMENU (vs. 22-Apr-2016) welcomes you **
+ 
+Mode of operation                                  : NORM_VARIANCE
+ 
+Type of variance mask:
+  WHOLE_IMAGE  CIRCLE       SOFT_CIRCLE  RECTANGLE
+  CONTOUR      MASK_FILE
+Please specify option [SOFT_CIRCLE]                : 
+ 
+How to use the norm variance mask:
+  ALWAYS_MASK  FOR_STATISTICS_ONLY
+Please specify option [ALWAYS_MASK]                : 
+Input file, image loc#s [modelFilt]                : mra-ref1
+Output file, image loc#s [modelFiltNorm]           : mra-ref1n
+  
+  The image will be masked by a circle. Please specify
+  the mask radius (pixels or fraction of inner radius).
+  If you specify a drop-off it will be a soft mask.
+  
+Mask radius, drop-off (0: no mask) [0.95,3.0]      : 
+Desired new sigma [10.0]                           : 
+Use MPI parallelisation [YES]                      : 
+Number of processors to be used [32]               : 
+
+ 22-11-2016 17:55:52 ** Starting parallel version
+
+ 22-11-2016 17:55:52 ** INC2DMENU (vs. 22-Apr-2016) running **
+  
+Mode of operation                                  : NORM_VARIANCE
+ 
+Type of variance mask:
+  WHOLE_IMAGE  CIRCLE       SOFT_CIRCLE  RECTANGLE
+  CONTOUR      MASK_FILE
+Please specify option [WHOLE_IMAGE]                :  SOFT_CIRCLE
+ 
+How to use the norm variance mask:
+  ALWAYS_MASK  FOR_STATISTICS_ONLY
+Please specify option [ALWAYS_MASK]                :  ALWAYS_MASK
+Input file, image loc#s                            :  mra-ref1
+Output file, image loc#s                           :  mra-ref1n
+  
+  The image will be masked by a circle. Please specify
+  the mask radius (pixels or fraction of inner radius).
+  If you specify a drop-off it will be a soft mask.
+  
+Mask radius, drop-off (0: no mask) [0.8,0.0]       :  0.95,3.0
+Desired new sigma [10.0]                           :  10.0
+Use MPI parallelisation [YES]                      :  YES
+Number of processors to be used [3]                :  32
+
+ 22-11-2016 17:55:52 ** Am starting image processing
+                        Number crunching processes: 1 - 28
+ 
+ 22-11-2016 17:55:52 ** Working on loc#s  1, 1 (process  1)
+ 22-11-2016 17:55:52 ** Working on loc#s  2, 2 (process  2)
+ 22-11-2016 17:55:52 ** Working on loc#s  3, 3 (process  3)
+ 22-11-2016 17:55:52 ** Working on loc#s  4, 4 (process  4)
+ 22-11-2016 17:55:52 ** Working on loc#s  5, 5 (process  6)
+ 22-11-2016 17:55:52 ** Working on loc#s  6, 6 (process  7)
+ 22-11-2016 17:55:52 ** Working on loc#s  7, 7 (process  8)
+ 22-11-2016 17:55:52 ** Working on loc#s  8, 8 (process  9)
+ 22-11-2016 17:55:52 ** Working on loc#s  9, 9 (process 10)
+ 22-11-2016 17:55:52 ** Working on loc#s 10,10 (process 11)
+ 22-11-2016 17:55:52 ** Working on loc#s 11,11 (process 12)
+ 22-11-2016 17:55:52 ** Working on loc#s 12,12 (process 13)
+ 22-11-2016 17:55:52 ** Working on loc#s 13,13 (process 14)
+ 22-11-2016 17:55:52 ** Working on loc#s 14,14 (process 15)
+ 22-11-2016 17:55:52 ** Working on loc#s 15,15 (process 16)
+ 22-11-2016 17:55:52 ** Working on loc#s 16,16 (process 17)
+ 22-11-2016 17:55:52 ** Working on loc#s 17,17 (process 18)
+ 22-11-2016 17:55:52 ** Working on loc#s 18,18 (process 19)
+ 22-11-2016 17:55:52 ** Working on loc#s 19,19 (process 20)
+ 22-11-2016 17:55:52 ** Working on loc#s 20,20 (process 21)
+ 22-11-2016 17:55:52 ** Working on loc#s 21,21 (process 22)
+ 22-11-2016 17:55:52 ** Working on loc#s 22,22 (process 23)
+ 22-11-2016 17:55:52 ** Working on loc#s 23,23 (process 24)
+ 22-11-2016 17:55:52 ** Working on loc#s 24,24 (process 25)
+ 22-11-2016 17:55:52 ** Working on loc#s 25,25 (process 26)
+ 22-11-2016 17:55:52 ** Working on loc#s 26,26 (process 27)
+ 22-11-2016 17:55:52 ** Working on loc#s 27,27 (process 28)
+ 22-11-2016 17:55:52 ** Working on loc#s 28,28 (process  5)
+ 
+ 
+Next IMAGIC command suggested: DISPLAY-IMAGES
+ 
+ 
+IMAGIC-COMMAND : 

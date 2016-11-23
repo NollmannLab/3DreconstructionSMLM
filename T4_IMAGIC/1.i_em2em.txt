@@ -1,0 +1,110 @@
+ 
+IMAGIC-COMMAND : em2
+ 
+** EM2EM (vs. 9-Jun-2016) welcomes you **
+ 
+ 
+   Please note: EM2EM converts images from/to formats of various
+                image processing systems (TIFF, MRC, IMAGIC, ...)
+ 
+                If images should be converted between different
+                format types within IMAGIC (REAL, INTG, ...)
+                use command CONVERT-IMAGE.
+ 
+ 
+Convert 2D image(s) or a single 3D volume:
+  2D  3D
+Please specify option [2D]                         :
+ 
+Data format of the input to be converted:
+  BROOKHAVEN_STEM     CCP4                DATA_ONLY
+  DIGITAL_MICROGRAPH  EM                  FEI
+  FABOSA              FORMATTED           IMAGIC
+  JPEG                KONTRON             MDPP
+  MEDIPIX             MRC                 OFFSET
+  PIF                 PGM                 PROTOMO
+  RAW_IMAGE           SHF                 SPIDER
+  SUPRIM              TIA/EMI/SER         TIFF
+  TVIPS
+Please specify option [IMAGIC]                     : mrc
+ 
+MRC format:
+  MRC_2000/2014  OLD_MRC        FEI_EPU        FEI_MRCS
+  IMOD_MRC       UNKNOWN
+Please specify option [MRC_2000]                   :
+ 
+Type of input file(s):
+  SINGLE_IMAGE_FILE        ONE_STACKED_IMAGE_FILE
+  SET_OF_MANY_IMAGE_FILES
+Please specify option [ONE_STACKED_IMAGE_FILE]     :
+ 
+Are the input images movie frames [NO]             :
+ 
+Export to which data format:
+  CCP4            DATA_ONLY       EM
+  FORMATTED       FEI_RAW_IMAGE   IMAGIC
+  JPEG_GREYSCALE  KONTRON         MDPP
+  MRC             OFFSET          PIF
+  PGM             POSTSCRIPT      PROTOMO
+  RAW_IMAGE       SHF             SPIDER
+  SUPRIM          TIFF            TVIPS
+  VOLUMETRIC      X-PLOR
+Please specify option [IMAGIC]                     :
+ 
+Input file (WITH extension),first#,last# [?]       : stack.mrc
+Output file, image loc#s [my_img]                  : all
+ 
+Pixel size (in Angstrom)                           : 50
+ 
+Use the standard em2em coordinate conversion [YES] :
+ 
+In case of data type conflicts, which preference:
+  THRESHOLD_DENSITIES  CHANGE_DATA_FORMAT
+  SHIFT_DENSITIES      SCALE_DENSITIES
+Please specify option [THRESHOLD_DENSITIES]        :
+ 
+Set additional output header values (EM etc.)
+[YES]                                              : no
+ 
+ 
+Header info from MRC file
+-------------------------
+ 
+MRC version                 : MRC 2014 file
+Input image file            : stack.mrc
+Number of pixels per line   : 100
+Number of lines per image   : 100
+Number of images            : 4000
+Type                        : UNIX MRC (LINUX/DEC)
+MRC data format             : short (INTG)
+MRC header text (part)      : bimg -v 7 stack.tiff stack.mrc
+ 
+ **WARNING: The resolution specified is different from the header value
+            Resolution value in header   = 72.0   50.0000000000000     
+            Am using the value specified = 50.0   50.0000000000000     
+ 
+ 
+ 22-11-2016 15:45:23 ** Converting: _________________________ < 1% done
+ 22-11-2016 15:45:23 ** Converting: >________________________   5% done
+ 22-11-2016 15:45:23 ** Converting: >>>______________________  10% done
+ 22-11-2016 15:45:23 ** Converting: >>>>_____________________  15% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>____________________  20% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>>___________________  25% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>>>>_________________  30% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>>>>>________________  35% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>>>>>>_______________  40% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>>>>>>>______________  45% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>>>>>>>>>____________  50% done
+ 22-11-2016 15:45:23 ** Converting: >>>>>>>>>>>>>>___________  55% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>__________  60% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>_________  65% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>>>_______  70% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>>>>______  75% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>>>>>_____  80% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>>>>>>____  85% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>>>>>>>>__  90% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>>>>>>>>>_  95% done
+ 22-11-2016 15:45:24 ** Converting: >>>>>>>>>>>>>>>>>>>>>>>>> 100% done
+ 
+ 
+Next IMAGIC command suggested: EM2EM

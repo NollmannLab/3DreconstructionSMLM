@@ -1,0 +1,99 @@
+ 
+IMAGIC-COMMAND : filter
+ 
+** INC2DMENU (vs. 22-Apr-2016) welcomes you **
+ 
+Mode of operation                                  : FILTER
+ 
+Mode of filtering:
+  BANDPASS_FILTER               LOWPASS_FILTER
+  HIGHPASS_FILTER               INVERSE_FILTER
+  CUT_OFF_HIGH_FREQUENCY        MEDIAN_FILTER
+  MED_HIGH_PASS                 IMPOSE_RADIAL_POWER_SPECTRUM
+  NORMALISE_AMPLITUDE_SPECTRUM
+Please specify option [HIGHPASS_FILTER]            : HIGHPASS_FILTER
+Input file, image loc#s [all-nc]                   : classums-1-200-ali
+Output file, image loc#s [all-nchp]                : classums-1-200-alihp
+  
+  The image will be filtered. Please specify:
+  
+Low frequency cut off [0.3]                        : 0.4
+Remaining transm. below cut off [.005]             : 
+Use MPI parallelisation [YES]                      : 
+Number of processors to be used [32]               : 
+
+ 22-11-2016 18:42:01 ** Starting parallel version
+
+ 22-11-2016 18:42:01 ** INC2DMENU (vs. 22-Apr-2016) running **
+  
+Mode of operation                                  : FILTER
+ 
+Mode of filtering:
+  BANDPASS_FILTER               LOWPASS_FILTER
+  HIGHPASS_FILTER               INVERSE_FILTER
+  CUT_OFF_HIGH_FREQUENCY        MEDIAN_FILTER
+  MED_HIGH_PASS                 IMPOSE_RADIAL_POWER_SPECTRUM
+  NORMALISE_AMPLITUDE_SPECTRUM
+Please specify option [BANDPASS_FILTER]            :  HIGHPASS_FILTER
+Input file, image loc#s                            :  classums-1-200-ali
+Output file, image loc#s                           :  classums-1-200-alihp
+  
+  The image will be filtered. Please specify:
+  
+Low frequency cut off [0.05]                       :  0.4
+Remaining transm. below cut off [.005]             :  .005
+Use MPI parallelisation [YES]                      :  YES
+Number of processors to be used [3]                :  32
+
+ 22-11-2016 18:42:01 ** Am starting image processing
+                        Number crunching processes: 1 - 31
+ 
+ 22-11-2016 18:42:01 ** Working on loc#s   7, 12 (process  3)
+ 22-11-2016 18:42:01 ** Working on loc#s  13, 18 (process  4)
+ 22-11-2016 18:42:01 ** Working on loc#s  19, 24 (process  5)
+ 22-11-2016 18:42:01 ** Working on loc#s  25, 29 (process  6)
+ 22-11-2016 18:42:01 ** Working on loc#s  35, 39 (process  8)
+ 22-11-2016 18:42:01 ** Working on loc#s  40, 44 (process  9)
+ 22-11-2016 18:42:01 ** Working on loc#s  50, 54 (process 11)
+ 22-11-2016 18:42:01 ** Working on loc#s  55, 59 (process 12)
+ 22-11-2016 18:42:01 ** Working on loc#s  60, 64 (process 13)
+ 22-11-2016 18:42:01 ** Working on loc#s  65, 69 (process 14)
+ 22-11-2016 18:42:01 ** Working on loc#s  70, 74 (process 15)
+ 22-11-2016 18:42:01 ** Working on loc#s  75, 78 (process 16)
+ 22-11-2016 18:42:01 ** Working on loc#s  79, 82 (process 17)
+ 22-11-2016 18:42:01 ** Working on loc#s  83, 86 (process 18)
+ 22-11-2016 18:42:01 ** Working on loc#s  87, 90 (process 19)
+ 22-11-2016 18:42:01 ** Working on loc#s  91, 94 (process 20)
+ 22-11-2016 18:42:01 ** Working on loc#s  95, 98 (process 21)
+ 22-11-2016 18:42:01 ** Working on loc#s  99,102 (process 22)
+ 22-11-2016 18:42:01 ** Working on loc#s 103,106 (process 23)
+ 22-11-2016 18:42:01 ** Working on loc#s 107,110 (process 24)
+ 22-11-2016 18:42:01 ** Working on loc#s 111,114 (process 25)
+ 22-11-2016 18:42:01 ** Working on loc#s 115,117 (process 26)
+ 22-11-2016 18:42:01 ** Working on loc#s 118,120 (process 27)
+ 22-11-2016 18:42:01 ** Working on loc#s 121,123 (process 28)
+ 22-11-2016 18:42:01 ** Working on loc#s 124,126 (process 29)
+ 22-11-2016 18:42:01 ** Working on loc#s 127,129 (process 30)
+ 22-11-2016 18:42:01 ** Working on loc#s 130,132 (process 31)
+ 22-11-2016 18:42:01 ** Working on loc#s 133,138 (process  1)
+ 22-11-2016 18:42:01 ** Working on loc#s   1,  6 (process  2)
+ 22-11-2016 18:42:01 ** Working on loc#s  30, 34 (process  7)
+ 22-11-2016 18:42:01 ** Working on loc#s  45, 49 (process 10)
+ 22-11-2016 18:42:01 ** Working on loc#s 139,144 (process  3)
+ 22-11-2016 18:42:01 ** Working on loc#s 145,150 (process  4)
+ 22-11-2016 18:42:01 ** Working on loc#s 151,156 (process  5)
+ 22-11-2016 18:42:01 ** Working on loc#s 157,161 (process  6)
+ 22-11-2016 18:42:01 ** Working on loc#s 162,166 (process  8)
+ 22-11-2016 18:42:01 ** Working on loc#s 167,171 (process  9)
+ 22-11-2016 18:42:01 ** Working on loc#s 177,181 (process 12)
+ 22-11-2016 18:42:01 ** Working on loc#s 182,186 (process 13)
+ 22-11-2016 18:42:01 ** Working on loc#s 187,191 (process 14)
+ 22-11-2016 18:42:01 ** Working on loc#s 192,196 (process 15)
+ 22-11-2016 18:42:01 ** Working on loc#s 197,200 (process 16)
+ 22-11-2016 18:42:02 ** Working on loc#s 172,176 (process 11)
+ 
+ 
+Next IMAGIC command suggested: DISPLAY-IMAGES
+ 
+ 
+IMAGIC-COMMAND : 

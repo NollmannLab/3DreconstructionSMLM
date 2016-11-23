@@ -1,0 +1,123 @@
+IMAGIC-COMMAND : ALIGN-MASS-CENTER
+ 
+** ALIMASS (vs. 30-May-2016) welcomes you **
+ 
+Input file, image loc#s [my_img]                   : all-n
+Output file, image loc#s [my_alipara]              : all-nc
+ 
+Options for centring:
+  MASS         MASK         ABSOLUTE     SELF
+  ROTATE_SELF  TOTSUM
+Please specify option [TOTSUM]                     : 
+ 
+Correlation function wanted:
+  CCF  MCF
+Please specify option [CCF]                        : 
+Max shift (pixels or as fraction) [0.2]            : 0.2
+How many centring iterations [3]                   : 
+ 
+Options to filter the total sum:
+  NO_FILTER  LOWPASS
+Please specify option [NO_FILTER]                  : 
+Mask radius, drop-off (0: no mask) [0.8,0.05]      : 0
+ **ERROR: Too few variables in answer
+Mask radius, drop-off (0: no mask) [0.8,0.05]      : 
+Reduce box size (central cut) [NO]                 : 
+Use MPI parallelisation [YES]                      : 
+Number of processors to be used [3]                : 32
+
+ 22-11-2016 16:30:57 ** Starting parallel version
+
+ 22-11-2016 16:30:57 ** ALIMASS (vs. 30-May-2016) running **
+  
+Input file, image loc#s [my_img]                   :  all-n
+Output file, image loc#s [my_alipara]              :  all-nc
+ 
+Options for centring:
+  MASS         MASK         ABSOLUTE     SELF
+  ROTATE_SELF  TOTSUM
+Please specify option [TOTSUM]                     :  TOTSUM
+ 
+Correlation function wanted:
+  CCF  MCF
+Please specify option [CCF]                        :  CCF
+Max shift (pixels or as fraction) [0.2]            :  0.2
+How many centring iterations [3]                   :  3
+ 
+Options to filter the total sum:
+  NO_FILTER  LOWPASS
+Please specify option [NO_FILTER]                  :  NO_FILTER
+Mask radius, drop-off (0: no mask) [0.8,0.05]      :  0.8,0.05
+Reduce box size (central cut) [NO]                 :  NO
+Use MPI parallelisation [YES]                      :  YES
+Number of processors to be used [3]                :  32
+
+ 22-11-2016 16:30:57 ** Working on iteration # 1
+
+ 22-11-2016 16:30:57 ** Creating rotational average of the total sum
+
+ 22-11-2016 16:30:58 ** Am aligning/centring images
+ 
+                        Number crunching processes: 1 - 31
+ 
+ 22-11-2016 16:30:58 ** Centring loc#s    1,   1 (process  1)
+ 22-11-2016 16:30:58 ** Centring loc#s  400, 400 (process 30)
+ 22-11-2016 16:30:58 ** Centring loc#s  800, 800 (process 28)
+ 22-11-2016 16:30:58 ** Centring loc#s 1200,1200 (process 25)
+ 22-11-2016 16:30:59 ** Centring loc#s 1600,1600 (process 22)
+ 22-11-2016 16:30:59 ** Centring loc#s 2000,2000 (process 19)
+ 22-11-2016 16:30:59 ** Centring loc#s 2400,2400 (process 16)
+ 22-11-2016 16:30:59 ** Centring loc#s 2800,2800 (process 13)
+ 22-11-2016 16:30:59 ** Centring loc#s 3200,3200 (process 10)
+ 22-11-2016 16:30:59 ** Centring loc#s 3600,3600 (process  7)
+ 22-11-2016 16:31:00 ** Centring loc#s 4000,4000 (process  2)
+
+ 22-11-2016 16:31:00 ** Working on iteration # 2
+
+ 22-11-2016 16:31:00 ** Creating rotational average of the total sum
+
+ 22-11-2016 16:31:00 ** Am aligning/centring images
+ 
+ 22-11-2016 16:31:00 ** Centring loc#s    1,   1 (process  1)
+ 22-11-2016 16:31:00 ** Centring loc#s  400, 400 (process 30)
+ 22-11-2016 16:31:01 ** Centring loc#s  800, 800 (process 27)
+ 22-11-2016 16:31:01 ** Centring loc#s 1200,1200 (process 26)
+ 22-11-2016 16:31:01 ** Centring loc#s 1600,1600 (process 23)
+ 22-11-2016 16:31:01 ** Centring loc#s 2000,2000 (process 21)
+ 22-11-2016 16:31:02 ** Centring loc#s 2400,2400 (process 18)
+ 22-11-2016 16:31:02 ** Centring loc#s 2800,2800 (process 13)
+ 22-11-2016 16:31:02 ** Centring loc#s 3200,3200 (process 10)
+ 22-11-2016 16:31:02 ** Centring loc#s 3600,3600 (process  7)
+ 22-11-2016 16:31:02 ** Centring loc#s 4000,4000 (process  4)
+
+ 22-11-2016 16:31:03 ** Working on iteration # 3
+
+ 22-11-2016 16:31:03 ** Creating rotational average of the total sum
+
+ 22-11-2016 16:31:03 ** Am aligning/centring images
+ 
+ 22-11-2016 16:31:03 ** Centring loc#s    1,   1 (process  1)
+ 22-11-2016 16:31:03 ** Centring loc#s  400, 400 (process 30)
+ 22-11-2016 16:31:04 ** Centring loc#s  800, 800 (process 27)
+ 22-11-2016 16:31:04 ** Centring loc#s 1200,1200 (process 24)
+ 22-11-2016 16:31:04 ** Centring loc#s 1600,1600 (process 21)
+ 22-11-2016 16:31:04 ** Centring loc#s 2000,2000 (process 18)
+ 22-11-2016 16:31:05 ** Centring loc#s 2400,2400 (process 15)
+ 22-11-2016 16:31:05 ** Centring loc#s 2800,2800 (process 12)
+ 22-11-2016 16:31:05 ** Centring loc#s 3200,3200 (process  9)
+ 22-11-2016 16:31:05 ** Centring loc#s 3600,3600 (process  5)
+ 22-11-2016 16:31:05 ** Centring loc#s 4000,4000 (process  2)
+
+
+ Average shift in every iteration
+
+    1         6.867 |****************************************************
+    2         1.591 |*********
+    3         0.415 |
+ 
+
+ 22-11-2016 16:31:06 ** Finished ALIMASS
+ 
+ 
+Next IMAGIC command suggested: MSA-RUN
+ 

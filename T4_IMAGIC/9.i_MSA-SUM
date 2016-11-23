@@ -1,0 +1,88 @@
+IMAGIC-COMMAND : MSA-SUM
+ 
+** CLASSUM (vs. 19-Aug-2015) welcomes you **
+ 
+Input images to be summed [all-nchp-alig2]         : 
+Rootname of MSA-CLASSIFY results [classums-1-200]  : classes-1-200
+Output class averages [class-1-200]                : classums-1-200
+Down weight small classes [YES]                    : 
+Fraction of worst class members to ignore [0]      : 
+ 
+Mode of summing statistics:
+  NONE  VARIANCE  S-IMAGE  I-IMAGE  FT
+Please specify option [NONE]                       : 
+
+ 22-11-2016 18:37:38 ** 4000 elements found in 200 classes
+
+ 22-11-2016 18:37:38 ** Working on class # 1
+ 
+Image name: Class-sums from all-nchp-alig2 using classes-1-200.cls
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 22-Nov-2016  Time: 18:37:38
+EM2EM;INC2DMENU/NORMVAR/SOFTCIRCLE;ALIMASS/TOTCENTER;INC2DMENU/HIGHPASS LOW=0.
+3 TRANS=0.005;MRALIGN/ALIGN(28REFS);MRALIGN/ALIGN(28REFS);MSA;CLASSUM/SUMS;
+
+ 22-11-2016 18:37:38 ** Working on class # 11
+
+ 22-11-2016 18:37:39 ** Working on class # 21
+
+ 22-11-2016 18:37:39 ** Working on class # 31
+
+ 22-11-2016 18:37:39 ** Working on class # 41
+
+ 22-11-2016 18:37:39 ** Working on class # 51
+
+ 22-11-2016 18:37:39 ** Working on class # 61
+
+ 22-11-2016 18:37:39 ** Working on class # 71
+
+ 22-11-2016 18:37:39 ** Working on class # 81
+
+ 22-11-2016 18:37:39 ** Working on class # 91
+
+ 22-11-2016 18:37:39 ** Working on class # 101
+
+ 22-11-2016 18:37:39 ** Working on class # 111
+
+ 22-11-2016 18:37:39 ** Working on class # 121
+
+ 22-11-2016 18:37:39 ** Working on class # 131
+
+ 22-11-2016 18:37:39 ** Working on class # 141
+
+ 22-11-2016 18:37:39 ** Working on class # 151
+
+ 22-11-2016 18:37:39 ** Working on class # 161
+
+ 22-11-2016 18:37:39 ** Working on class # 171
+
+ 22-11-2016 18:37:39 ** Working on class # 181
+
+ 22-11-2016 18:37:39 ** Working on class # 191
+ 
+Image name: Class-sums from all-nchp-alig2 using classes-1-200.cls
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 22-Nov-2016  Time: 18:37:39
+EM2EM;INC2DMENU/NORMVAR/SOFTCIRCLE;ALIMASS/TOTCENTER;INC2DMENU/HIGHPASS LOW=0.
+3 TRANS=0.005;MRALIGN/ALIGN(28REFS);MRALIGN/ALIGN(28REFS);MSA;CLASSUM/SUMS;
+
+ 22-11-2016 18:37:40 ** Finished CLASSUM
+ 
+ 
+ The results have been stored in the following files:
+ ====================================================
+ 
+ Class-sums (averages) file  : classums-1-200
+ 
+ 
+ Some useful IMAGIC commands:
+ ============================
+ 
+ DISPLAY        to display the class averages
+ MSA-MAP        to calculate classification maps
+ MSA-EXTRACT    to extract images of certain classes
+ EXCLUSIVE-COPY to SORT the class averages by quality
+ 
+ 
+Next IMAGIC command suggested: DISPLAY
+ 
+ 
+IMAGIC-COMMAND : 

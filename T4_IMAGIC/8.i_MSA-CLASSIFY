@@ -1,0 +1,116 @@
+IMAGIC-COMMAND : MSA-CLASSIFY
+ 
+** CLASSIFY (vs. 25-Apr-2016) welcomes you **
+ 
+ 
+Input to be classified:
+  IMAGES/VOLUMES   PIXEL-VECTORS    SEQUENCES
+  FABOSA-CONTOURS
+Please specify option [IMAGES/VOLUMES]             : 
+ 
+Classification options:
+  HAC  HYBRID
+Please specify option [HAC]                        : 
+Input (=output) header file (used in MSA-RUN)
+[all-nchp-alig2]                                   : 
+Percentage of images to be ignored [0]             : 
+Active eigenimages for classification [200]        : 
+Use default classification options [YES]           : 
+What number of classes do you wish [200]           : 
+Rootname of output files [classums-1-200]          : classes-1-200
+
+ 22-11-2016 18:36:18 ** Reading eigenvalues/eigenimages and coordinates
+ 
+ **WARNING: More classification factors          = 200
+            than eigenimages (MSA-RUN) available = 50
+            Number reduced to number of eigenimages
+
+ 22-11-2016 18:36:19 ** Starting to classify
+
+ 22-11-2016 18:36:19 ** Finding first distance matrix
+
+ 22-11-2016 18:36:19 ** Checking double input images/elements
+
+ 22-11-2016 18:36:19 ** Starting hierarchical ascendant classification
+ 
+ 22-11-2016 18:36:19 ** Classifying: _________________________ < 1% done
+ 22-11-2016 18:36:20 ** Classifying: >________________________   5% done
+ 22-11-2016 18:36:20 ** Classifying: >>>______________________  10% done
+ 22-11-2016 18:36:20 ** Classifying: >>>>_____________________  15% done
+ 22-11-2016 18:36:20 ** Classifying: >>>>>____________________  20% done
+ 22-11-2016 18:36:20 ** Classifying: >>>>>>___________________  25% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>_________________  30% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>________________  35% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>>_______________  40% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>>>______________  45% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>>>>>____________  50% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>>>>>>___________  55% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>>>>>>>__________  60% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>>>>>>>>_________  65% done
+ 22-11-2016 18:36:21 ** Classifying: >>>>>>>>>>>>>>>>>>_______  70% done
+ 22-11-2016 18:36:22 ** Classifying: >>>>>>>>>>>>>>>>>>>______  75% done
+ 22-11-2016 18:36:22 ** Classifying: >>>>>>>>>>>>>>>>>>>>_____  80% done
+ 22-11-2016 18:36:22 ** Classifying: >>>>>>>>>>>>>>>>>>>>>____  85% done
+ 22-11-2016 18:36:22 ** Classifying: >>>>>>>>>>>>>>>>>>>>>>>__  90% done
+ 22-11-2016 18:36:22 ** Classifying: >>>>>>>>>>>>>>>>>>>>>>>>_  95% done
+ 22-11-2016 18:36:22 ** Classifying: >>>>>>>>>>>>>>>>>>>>>>>>> 100% done
+
+ 22-11-2016 18:36:22 ** Finished hierarchical ascendant classification
+
+ 22-11-2016 18:36:22 ** Refining the partition by moving elements
+                        (can take some time)
+ 
+                                     Elements          Total
+                         Iteration      moved       variance     Refinement
+ 
+
+ 22-11-2016 18:36:22 **          0          0     207.637633          -
+ 22-11-2016 18:36:22 **          1        751     200.079661      0.0377748
+ 22-11-2016 18:36:22 **          2        193     199.460490      0.0031042
+ 22-11-2016 18:36:22 **          3         82     199.309540      0.0007574
+ 22-11-2016 18:36:22 **          4         51     199.218751      0.0004557
+ 22-11-2016 18:36:22 **          5         26     199.186480      0.0001620
+ 22-11-2016 18:36:22 **          6         11     199.171539      0.0000750
+
+ Partition stabilized after 6 iteration(s)
+ 
+ Total sum of intra-class variances prior to reclassification : 207.6376334
+ Total sum of intra-class variances after reclassification    : 199.1715392
+ Change of intra-class variances during reclassification      : 4.077341 %
+ OLD intra-class variance is higher than the NEW minimum by   : 4.2506546 %
+
+ 22-11-2016 18:36:22 ** Finished refining the partition
+
+ 22-11-2016 18:36:22 ** Going to print the partition
+
+ 22-11-2016 18:36:22 ** Well, I came up with 200 classes
+
+ 22-11-2016 18:36:22 ** Classification finished normally
+ 
+ 
+ The results have been stored in the following files:
+ ====================================================
+ 
+ Text (listing) file
+ with classification results           : classes-1-200.lis
+ 
+ File containing
+ all classes and their members         : classes-1-200.cls
+ 
+ Variance plots related to classes     : classes-1-200_variance.plt
+ Plots showing variance changes        : classes-1-200_variance_hac.plt
+ 
+ Image file containing
+ metric and coordinates of the classes : classes-1-200_coord_metric
+ 
+ 
+ Some useful IMAGIC commands:
+ ============================
+ 
+ MSA-SUM           to calculate class averages (class-sums)
+ MSA-MAP           to calculate classification maps
+ MSA-EXTRACT       to extract "images" of certain classes
+ MSA-EIGEN-FILTER  to eigen filter the input "images"
+ 
+ 
+Next IMAGIC command suggested: MSA-SUM

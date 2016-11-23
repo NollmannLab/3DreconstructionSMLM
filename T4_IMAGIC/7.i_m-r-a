@@ -1,0 +1,479 @@
+IMAGIC-COMMAND : m-r-a
+ 
+** MRALIGN (vs. 9-May-2016) welcomes you **
+ 
+ 
+MRA options:
+  FRESH  ADD_NEW_REFS  LOCAL_SEARCH
+Please specify option [FRESH]                      : 
+ 
+4D options:
+  ALL_REFERENCES  OWN_REF3D_REFERENCES
+Please specify option [ALL_REFERENCES]             : 
+ 
+Methods available:
+  ALIGNMENT  CORRELATION_ONLY
+Please specify option [ALIGNMENT]                  : 
+ 
+Alignment modes available:
+  HORIZONTAL            VERTICAL
+  TRANSLATIONAL         ROTATIONAL
+  BOTH (ROT AND TRANS)  BRUTE_FORCE
+Please specify option [BOTH (ROT AND TRANS)]       : 
+ 
+Options available:
+  ROTATION_FIRST  TRANSLATION_FIRST
+Please specify option [ROTATION_FIRST]             : 
+ 
+Correlation functions available:
+  CCF  MCF
+Please specify option [CCF]                        : 
+Input file, image loc#s [all-nc]                   : all-nchp
+Output file, loc#s [all-nc-alig1]                  : all-nchp-alig1
+Original (pre-treated) file, loc#s [all-n]         : all-n
+  
+**WARNING: Check if input and original images have the same
+           band-pass filter. The output images will have the
+           filter of the ORIGINAL images
+  
+Reference file, loc#s [mra-ref1n]                  : 
+ 
+Options to filter the reference(s):
+  NO_FILTER                 LOWPASS_FILTER
+  BANDPASS_FILTER           CUT_OFF_HIGH_FREQUENCIES
+Please specify option [NO]                         : 
+Max shift (compared to original images) [0.2]      : 
+Max shift (during this alignment) [0.05]           : 
+Min, max rot. angle (compared to originals)
+[-180,180]                                         : 
+Min, max rot. angle (for this alignment)
+[-180,180]                                         : 
+ 
+Precision for rotational alignment:
+  LOW  MEDIUM  HIGH  INTERACTIVE
+Please specify option [HIGH]                       : 
+Min,max radius for rot alignment [0.0,0.6]         : 
+Number of alignment iterations [5]                 : 
+Full output of all parameters [NO]                 : 
+  
+Use MPI parallelisation [YES]                      : 
+Number of processors to be used [32]               : 
+
+ 22-11-2016 18:12:29 ** Starting parallel version
+
+ 22-11-2016 18:12:29 ** MRALIGN (vs. 9-May-2016) running **
+  
+ 
+MRA options:
+  FRESH  ADD_NEW_REFS  LOCAL_SEARCH
+Please specify option [FRESH]                      :  FRESH
+ 
+4D options:
+  ALL_REFERENCES  OWN_REF3D_REFERENCES
+Please specify option [ALL_REFERENCES]             :  ALL_REFERENCES
+ 
+Methods available:
+  ALIGNMENT  CORRELATION_ONLY
+Please specify option [ALIGNMENT]                  :  ALIGNMENT
+ 
+Alignment modes available:
+  HORIZONTAL            VERTICAL
+  TRANSLATIONAL         ROTATIONAL
+  BOTH (ROT AND TRANS)  BRUTE_FORCE
+Please specify option [BOTH (ROT AND TRANS)]       :  BOTH (ROT AND TRANS)
+ 
+Options available:
+  ROTATION_FIRST  TRANSLATION_FIRST
+Please specify option [ROTATION_FIRST]             :  ROTATION_FIRST
+ 
+Correlation functions available:
+  CCF  MCF
+Please specify option [CCF]                        :  CCF
+Input file, image loc#s [my_images]                :  all-nchp
+Output file, loc#s [my_align]                      :  all-nchp-alig1
+Original (pre-treated) file, loc#s [my_filt]       :  all-n
+  
+**WARNING: Check if input and original images have the same
+           band-pass filter. The output images will have the
+           filter of the ORIGINAL images
+  
+Reference file, loc#s [my_ref]                     :  mra-ref1n
+ 
+Options to filter the reference(s):
+  NO_FILTER                 LOWPASS_FILTER
+  BANDPASS_FILTER           CUT_OFF_HIGH_FREQUENCIES
+Please specify option [CUT_OFF_HIGH_FREQUENCIES]   :  NO
+Max shift (compared to original images) [0.2]      :  0.2
+Max shift (during this alignment) [0.05]           :  0.05
+Min, max rot. angle (compared to originals)
+[-180,180]                                         :  -180,180
+Min, max rot. angle (for this alignment)
+[-180,180]                                         :  -180,180
+ 
+Precision for rotational alignment:
+  LOW  MEDIUM  HIGH  INTERACTIVE
+Please specify option [MEDIUM]                     :  HIGH
+Min,max radius for rot alignment [0.0,0.7]         :  0.0,0.6
+Number of alignment iterations [5]                 :  5
+Full output of all parameters [NO]                 :  NO
+  
+Use MPI parallelisation [YES]                      :  YES
+Number of processors to be used [3]                :  32
+
+ 22-11-2016 18:12:29 ** Starting multi-reference alignment
+ 
+                        Number crunching processes: 1 - 31
+ 
+ 22-11-2016 18:12:29 ** Using references  1 to 28 (loc#s 1 to 28)
+ 22-11-2016 18:12:29 ** Alignment locs #    1, 129 (process  7)
+ 22-11-2016 18:12:29 ** Alignment locs #  130, 237 (process 10)
+ 22-11-2016 18:12:29 ** Alignment locs #  238, 347 (process 11)
+ 22-11-2016 18:12:29 ** Alignment locs #  348, 455 (process 12)
+ 22-11-2016 18:12:29 ** Alignment locs #  456, 561 (process 13)
+ 22-11-2016 18:12:29 ** Alignment locs #  562, 666 (process 14)
+ 22-11-2016 18:12:29 ** Alignment locs #  667, 770 (process 15)
+ 22-11-2016 18:12:29 ** Alignment locs #  771, 872 (process 16)
+ 22-11-2016 18:12:29 ** Alignment locs #  873, 973 (process 17)
+ 22-11-2016 18:12:29 ** Alignment locs #  974,1073 (process 18)
+ 22-11-2016 18:12:29 ** Alignment locs # 1074,1171 (process 19)
+ 22-11-2016 18:12:29 ** Alignment locs # 1172,1268 (process 20)
+ 22-11-2016 18:12:29 ** Alignment locs # 1269,1364 (process 21)
+ 22-11-2016 18:12:29 ** Alignment locs # 1365,1459 (process 22)
+ 22-11-2016 18:12:29 ** Alignment locs # 1460,1553 (process 23)
+ 22-11-2016 18:12:29 ** Alignment locs # 1554,1646 (process 24)
+ 22-11-2016 18:12:29 ** Alignment locs # 1647,1734 (process 27)
+ 22-11-2016 18:12:29 ** Alignment locs # 1735,1823 (process 28)
+ 22-11-2016 18:12:29 ** Alignment locs # 1824,1910 (process 29)
+ 22-11-2016 18:12:29 ** Alignment locs # 1911,2038 (process  1)
+ 22-11-2016 18:12:29 ** Alignment locs # 2039,2163 (process  2)
+ 22-11-2016 18:12:29 ** Alignment locs # 2164,2284 (process  4)
+ 22-11-2016 18:12:29 ** Alignment locs # 2285,2403 (process  5)
+ 22-11-2016 18:12:29 ** Alignment locs # 2404,2520 (process  6)
+ 22-11-2016 18:12:29 ** Alignment locs # 2521,2634 (process  8)
+ 22-11-2016 18:12:29 ** Alignment locs # 2635,2746 (process  9)
+ 22-11-2016 18:12:30 ** Alignment locs # 2747,2830 (process 25)
+ 22-11-2016 18:12:30 ** Alignment locs # 2831,2924 (process 26)
+ 22-11-2016 18:12:30 ** Alignment locs # 2925,3008 (process 30)
+ 22-11-2016 18:12:30 ** Alignment locs # 3009,3095 (process 31)
+ 22-11-2016 18:12:31 ** Alignment locs # 3096,3220 (process  3)
+ 22-11-2016 18:13:05 ** Alignment locs # 3221,3289 (process 30)
+ 22-11-2016 18:13:06 ** Alignment locs # 3290,3390 (process 25)
+ 22-11-2016 18:13:06 ** Alignment locs # 3391,3475 (process 27)
+ 22-11-2016 18:13:06 ** Alignment locs # 3476,3566 (process 28)
+ 22-11-2016 18:13:07 ** Alignment locs # 3567,3652 (process 29)
+ 22-11-2016 18:13:08 ** Alignment locs # 3653,3738 (process 31)
+ 22-11-2016 18:13:08 ** Alignment locs # 3739,3834 (process 24)
+ 22-11-2016 18:13:08 ** Alignment locs # 3835,3927 (process 23)
+ 22-11-2016 18:13:09 ** Alignment locs # 3928,4000 (process 22)
+ 
+ 22-11-2016 18:13:47 ** Alignment finished for all processes
+ 
+ 
+Image name: 
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 22-Nov-2016  Time: 18:13:23
+EM2EM;INC2DMENU/NORMVAR/SOFTCIRCLE;ALIMASS/TOTCENTER;INC2DMENU/HIGHPASS LOW=0.
+3 TRANS=0.005;
+ 
+Image name: 
+Size: 100, 100  Loc: 4000  Type: REAL  Cre.Date: 22-Nov-2016  Time: 18:13:39
+EM2EM;INC2DMENU/NORMVAR/SOFTCIRCLE;ALIMASS/TOTCENTER;INC2DMENU/HIGHPASS LOW=0.
+3 TRANS=0.005;MRALIGN/ALIGN(28REFS);
+ 
+ 
+ Histogram of reference numbers from all-nchp-alig1:
+ 
+    1   0 |
+   45   1 |*******
+  136   2 |**********************
+  307   3 |**************************************************
+  203   4 |*********************************
+   17   5 |***
+  177   6 |*****************************
+   66   7 |***********
+   62   8 |**********
+   70   9 |***********
+  101  10 |****************
+  103  11 |*****************
+  122  12 |********************
+  362  13 |***********************************************************
+  245  14 |****************************************
+   55  15 |*********
+  226  16 |*************************************
+  247  17 |****************************************
+  118  18 |*******************
+   57  19 |*********
+  274  20 |*********************************************
+   79  21 |*************
+   33  22 |*****
+   85  23 |**************
+   95  24 |***************
+   84  25 |**************
+   73  26 |************
+  281  27 |**********************************************
+  276  28 |*********************************************
+    0  29 |
+    0  30 |
+ 
+ Meaning of columns: # in this bin, bin value
+ 
+ 
+ Histogram of 3D reference numbers from all-nchp-alig1:
+ 
+    0   0 |
+ 3999   1 |***********************************************************
+    0   2 |
+    0   3 |
+    1  <3 |
+ 
+ Meaning of columns: # in this bin, bin value
+ 
+ 
+ 
+ M-R-A results:
+ ==============
+ 
+ Average shift              : 2.1171101
+ Average rotation           : 91.8204533
+ Average corr.coeff (CCC)   : 0.1889735
+ Best CCC                   : 0.7518376
+ Location # of best CCC     : 2276
+ 
+ 
+ M-R-A files:
+ ============
+ 
+ Input images for alignment : all-nchp
+ Aligned to references      : mra-ref1n
+ Original images            : all-n
+ Aligned output images      : all-nchp-alig1
+ 
+ 
+ Some useful follow-up IMAGIC commands: 
+ ======================================
+ 
+ DISPLAY                    to visually check the alignment
+ MSA-RUN                    to calculate MSA classification
+ M-R-A                      to add references etc.
+ EXTRACT-ALIGNED-IMAGES     to extract/sum images 'belonging'
+                            to a given reference
+ SUM-ALIGNED-IMAGES         to sum images 'belonging' to a
+                            given reference
+ INCORE-SUM                 to sum (some) aligned images
+ EXCLUSIVE-COPY             to extract/sort aligned images
+ ...
+
+
+ 22-11-2016 18:13:50 ** Finished MRALIGN
+ 
+ 
+Next IMAGIC command suggested: MSA-RUN
+ 
+ 
+IMAGIC-COMMAND : m-r-a
+ 
+** MRALIGN (vs. 9-May-2016) welcomes you **
+ 
+ 
+MRA options:
+  FRESH  ADD_NEW_REFS  LOCAL_SEARCH
+Please specify option [FRESH]                      : 
+ 
+4D options:
+  ALL_REFERENCES  OWN_REF3D_REFERENCES
+Please specify option [ALL_REFERENCES]             : 
+ 
+Methods available:
+  ALIGNMENT  CORRELATION_ONLY
+Please specify option [ALIGNMENT]                  : 
+ 
+Alignment modes available:
+  HORIZONTAL            VERTICAL
+  TRANSLATIONAL         ROTATIONAL
+  BOTH (ROT AND TRANS)  BRUTE_FORCE
+Please specify option [BOTH (ROT AND TRANS)]       : 
+ 
+Options available:
+  ROTATION_FIRST  TRANSLATION_FIRST
+Please specify option [ROTATION_FIRST]             : 
+ 
+Correlation functions available:
+  CCF  MCF
+Please specify option [CCF]                        : 
+Input file, image loc#s [all-nchp]                 : all-nchp-alig1
+Output file, loc#s [all-nchp-alig1]                : all-nchp-alig2
+Original (pre-treated) file, loc#s [all-n]         : 
+  
+**WARNING: Check if input and original images have the same
+           band-pass filter. The output images will have the
+           filter of the ORIGINAL images
+  
+Reference file, loc#s [mra-ref1n]                  : 
+ 
+Options to filter the reference(s):
+  NO_FILTER                 LOWPASS_FILTER
+  BANDPASS_FILTER           CUT_OFF_HIGH_FREQUENCIES
+Please specify option [NO]                         : 
+Max shift (compared to original images) [0.2]      : 
+Max shift (during this alignment) [0.05]           : 
+Min, max rot. angle (compared to originals)
+[-180,180]                                         : 
+Min, max rot. angle (for this alignment)
+[-180,180]                                         : 
+ 
+Precision for rotational alignment:
+  LOW  MEDIUM  HIGH  INTERACTIVE
+Please specify option [HIGH]                       : 
+Min,max radius for rot alignment [0.0,0.6]         : 
+Number of alignment iterations [5]                 : 
+Full output of all parameters [NO]                 : 
+  
+Use MPI parallelisation [YES]                      : 
+Number of processors to be used [32]               : 
+
+ 22-11-2016 18:16:57 ** Starting parallel version
+
+ 22-11-2016 18:16:57 ** MRALIGN (vs. 9-May-2016) running **
+  
+ 
+MRA options:
+  FRESH  ADD_NEW_REFS  LOCAL_SEARCH
+Please specify option [FRESH]                      :  FRESH
+ 
+4D options:
+  ALL_REFERENCES  OWN_REF3D_REFERENCES
+Please specify option [ALL_REFERENCES]             :  ALL_REFERENCES
+ 
+Methods available:
+  ALIGNMENT  CORRELATION_ONLY
+Please specify option [ALIGNMENT]                  :  ALIGNMENT
+ 
+Alignment modes available:
+  HORIZONTAL            VERTICAL
+  TRANSLATIONAL         ROTATIONAL
+  BOTH (ROT AND TRANS)  BRUTE_FORCE
+Please specify option [BOTH (ROT AND TRANS)]       :  BOTH (ROT AND TRANS)
+ 
+Options available:
+  ROTATION_FIRST  TRANSLATION_FIRST
+Please specify option [ROTATION_FIRST]             :  ROTATION_FIRST
+ 
+Correlation functions available:
+  CCF  MCF
+Please specify option [CCF]                        :  CCF
+Input file, image loc#s [my_images]                :  all-nchp-alig1
+Output file, loc#s [my_align]                      :  all-nchp-alig2
+Original (pre-treated) file, loc#s [my_filt]       :  all-n
+  
+**WARNING: Check if input and original images have the same
+           band-pass filter. The output images will have the
+           filter of the ORIGINAL images
+  
+Reference file, loc#s [my_ref]                     :  mra-ref1n
+ 
+Options to filter the reference(s):
+  NO_FILTER                 LOWPASS_FILTER
+  BANDPASS_FILTER           CUT_OFF_HIGH_FREQUENCIES
+Please specify option [CUT_OFF_HIGH_FREQUENCIES]   :  NO
+Max shift (compared to original images) [0.2]      :  0.2
+Max shift (during this alignment) [0.05]           :  0.05
+Min, max rot. angle (compared to originals)
+[-180,180]                                         :  -180,180
+Min, max rot. angle (for this alignment)
+[-180,180]                                         :  -180,180
+ 
+Precision for rotational alignment:
+  LOW  MEDIUM  HIGH  INTERACTIVE
+Please specify option [MEDIUM]                     :  HIGH
+Min,max radius for rot alignment [0.0,0.7]         :  0.0,0.6
+Number of alignment iterations [5]                 :  5
+Full output of all parameters [NO]                 :  NO
+  
+Use MPI parallelisation [YES]                      :  YES
+Number of processors to be used [3]                :  32
+
+ 22-11-2016 18:16:57 ** Starting multi-reference alignment
+ 
+                        Number crunching processes: 1 - 31
+ 
+ 22-11-2016 18:16:58 ** Using references  1 to 28 (loc#s 1 to 28)
+ 22-11-2016 18:16:58 ** Alignment locs #    1, 129 (process  4)
+ 22-11-2016 18:16:58 ** Alignment locs #  130, 248 (process  5)
+ 22-11-2016 18:16:58 ** Alignment locs #  249, 365 (process  6)
+ 22-11-2016 18:16:58 ** Alignment locs #  366, 481 (process  7)
+ 22-11-2016 18:16:58 ** Alignment locs #  482, 593 (process  9)
+ 22-11-2016 18:16:58 ** Alignment locs #  594, 702 (process 11)
+ 22-11-2016 18:16:58 ** Alignment locs #  703, 806 (process 14)
+ 22-11-2016 18:16:58 ** Alignment locs #  807, 910 (process 15)
+ 22-11-2016 18:16:58 ** Alignment locs #  911,1012 (process 16)
+ 22-11-2016 18:16:58 ** Alignment locs # 1013,1113 (process 17)
+ 22-11-2016 18:16:58 ** Alignment locs # 1114,1213 (process 18)
+ 22-11-2016 18:16:58 ** Alignment locs # 1214,1311 (process 19)
+ 22-11-2016 18:16:58 ** Alignment locs # 1312,1408 (process 20)
+ 22-11-2016 18:16:58 ** Alignment locs # 1409,1501 (process 23)
+ 22-11-2016 18:16:58 ** Alignment locs # 1502,1594 (process 24)
+ 22-11-2016 18:16:58 ** Alignment locs # 1595,1685 (process 25)
+ 22-11-2016 18:16:58 ** Alignment locs # 1686,1773 (process 28)
+ 22-11-2016 18:16:58 ** Alignment locs # 1774,1858 (process 31)
+ 22-11-2016 18:16:58 ** Alignment locs # 1859,1986 (process  1)
+ 22-11-2016 18:16:58 ** Alignment locs # 1987,2111 (process  2)
+ 22-11-2016 18:16:58 ** Alignment locs # 2112,2224 (process  8)
+ 22-11-2016 18:16:58 ** Alignment locs # 2225,2335 (process 10)
+ 22-11-2016 18:16:58 ** Alignment locs # 2336,2443 (process 12)
+ 22-11-2016 18:16:58 ** Alignment locs # 2444,2549 (process 13)
+ 22-11-2016 18:16:58 ** Alignment locs # 2550,2642 (process 21)
+ 22-11-2016 18:16:58 ** Alignment locs # 2643,2738 (process 22)
+ 22-11-2016 18:16:58 ** Alignment locs # 2739,2822 (process 29)
+ 22-11-2016 18:16:58 ** Alignment locs # 2823,2910 (process 30)
+ 22-11-2016 18:16:59 ** Alignment locs # 2911,3002 (process 26)
+ 22-11-2016 18:16:59 ** Alignment locs # 3003,3091 (process 27)
+ 22-11-2016 18:16:59 ** Alignment locs # 3092,3216 (process  3)
+ 22-11-2016 18:17:34 ** Alignment locs # 3217,3287 (process 29)
+ 22-11-2016 18:17:34 ** Alignment locs # 3288,3380 (process 31)
+ 22-11-2016 18:17:36 ** Alignment locs # 3381,3468 (process 27)
+ 22-11-2016 18:17:36 ** Alignment locs # 3469,3554 (process 30)
+ 22-11-2016 18:17:37 ** Alignment locs # 3555,3644 (process 28)
+ 22-11-2016 18:17:37 ** Alignment locs # 3645,3737 (process 25)
+ 22-11-2016 18:17:37 ** Alignment locs # 3738,3835 (process 21)
+ 22-11-2016 18:17:38 ** Alignment locs # 3836,3923 (process 26)
+ 22-11-2016 18:17:38 ** Alignment locs # 3924,4000 (process 24)
+ 
+ 22-11-2016 18:18:18 ** Alignment finished for all processes
+ 
+ 
+Image name:                                                                                                              
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 22-Nov-2016  Time: 18:17:53                                           
+EM2EM;INC2DMENU/NORMVAR/SOFTCIRCLE;ALIMASS/TOTCENTER;INC2DMENU/HIGHPASS LOW=0.                               
+3 TRANS=0.005;MRALIGN/ALIGN(28REFS);                                                                      
+ 
+Image name:                                                                                            
+Size: 100, 100  Loc: 4000  Type: REAL  Cre.Date: 22-Nov-2016  Time: 18:18:10                     
+EM2EM;INC2DMENU/NORMVAR/SOFTCIRCLE;ALIMASS/TOTCENTER;INC2DMENU/HIGHPASS LOW=0.               
+3 TRANS=0.005;MRALIGN/ALIGN(28REFS);MRALIGN/ALIGN(28REFS);                                  
+ 
+ 
+ Histogram of reference numbers from all-nchp-alig2:
+ 
+    3   0 |*
+  177   1 |********************************
+  267   2 |************************************************
+   26   3 |*****
+  109   4 |*******************
+  330   5 |***********************************************************
+  252   6 |*********************************************
+    1   7 |
+    8   8 |*
+  328   9 |***********************************************************
+   42  10 |********
+   41  11 |*******
+  192  12 |**********************************
+  155  13 |****************************
+  286  14 |***************************************************
+  186  15 |*********************************
+  182  16 |*********************************
+   46  17 |********
+  214  18 |**************************************
+   46  19 |********
+   51  20 |*********
+   10  21 |**
+  316  22 |********************************************************
+  176  23 |*************

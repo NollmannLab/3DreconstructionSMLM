@@ -1,0 +1,99 @@
+IMAGIC-COMMAND : NORM-VARIANCE
+ 
+** INC2DMENU (vs. 22-Apr-2016) welcomes you **
+ 
+Mode of operation                                  : NORM_VARIANCE
+ 
+Type of variance mask:
+  WHOLE_IMAGE  CIRCLE       SOFT_CIRCLE  RECTANGLE
+  CONTOUR      MASK_FILE
+Please specify option [SOFT_CIRCLE]                : 
+ 
+How to use the norm variance mask:
+  ALWAYS_MASK  FOR_STATISTICS_ONLY
+Please specify option [ALWAYS_MASK]                : 
+Input file, image loc#s [all]                      : 
+Output file, image loc#s [all-n]                   : 
+  
+  The image will be masked by a circle. Please specify
+  the mask radius (pixels or fraction of inner radius).                                                                                      
+  If you specify a drop-off it will be a soft mask.                                                                                          
+                                                                                                                                             
+Mask radius, drop-off (0: no mask) [0.95,3.0]      :                                                                                         
+Desired new sigma [10.0]                           :                                                                                         
+Use MPI parallelisation [YES]                      :                                                                                         
+Number of processors to be used [32]               :                                                                                         
+                                                                                                                                             
+ 22-11-2016 16:26:51 ** Starting parallel version                                                                                            
+                                                                                                                                             
+ 22-11-2016 16:26:52 ** INC2DMENU (vs. 22-Apr-2016) running **                                                                               
+                                                                                                                                             
+Mode of operation                                  : NORM_VARIANCE                                                                           
+                                                                                                                                             
+Type of variance mask:                                                                                                                       
+  WHOLE_IMAGE  CIRCLE       SOFT_CIRCLE  RECTANGLE                                                                                           
+  CONTOUR      MASK_FILE                                                                                                                     
+Please specify option [WHOLE_IMAGE]                :  SOFT_CIRCLE                                                                            
+                                                                                                                                             
+How to use the norm variance mask:                                                                                                           
+  ALWAYS_MASK  FOR_STATISTICS_ONLY                                                                                                           
+Please specify option [ALWAYS_MASK]                :  ALWAYS_MASK                                                                            
+Input file, image loc#s                            :  all                                                                                    
+Output file, image loc#s                           :  all-n                                                                                  
+                                                                                                                                             
+  The image will be masked by a circle. Please specify                                                                                       
+  the mask radius (pixels or fraction of inner radius).                                                                                      
+  If you specify a drop-off it will be a soft mask.                                                                                          
+                                                                                                                                             
+Mask radius, drop-off (0: no mask) [0.8,0.0]       :  0.95,3.0                                                                               
+Desired new sigma [10.0]                           :  10.0                                                                                   
+Use MPI parallelisation [YES]                      :  YES                                                                                    
+Number of processors to be used [3]                :  32                                                                                     
+                                                                                                                                             
+ 22-11-2016 16:26:52 ** Am starting image processing                                                                                         
+                        Number crunching processes: 1 - 31                                                                                   
+                                                                                                                                             
+ 22-11-2016 16:26:52 ** Working on loc#s  126, 248 (process  3)                                                                              
+ 22-11-2016 16:26:52 ** Working on loc#s  249, 369 (process  4)
+ 22-11-2016 16:26:52 ** Working on loc#s  489, 605 (process  6)
+ 22-11-2016 16:26:52 ** Working on loc#s  720, 831 (process  8)
+ 22-11-2016 16:26:52 ** Working on loc#s  832, 941 (process  9)
+ 22-11-2016 16:26:52 ** Working on loc#s  942,1049 (process 10)
+ 22-11-2016 16:26:52 ** Working on loc#s 1050,1155 (process 11)
+ 22-11-2016 16:26:52 ** Working on loc#s 1156,1259 (process 12)
+ 22-11-2016 16:26:52 ** Working on loc#s 1260,1361 (process 13)
+ 22-11-2016 16:26:52 ** Working on loc#s 1362,1461 (process 14)
+ 22-11-2016 16:26:52 ** Working on loc#s 1462,1559 (process 15)
+ 22-11-2016 16:26:52 ** Working on loc#s 1560,1655 (process 16)
+ 22-11-2016 16:26:52 ** Working on loc#s 1656,1749 (process 17)
+ 22-11-2016 16:26:52 ** Working on loc#s 1750,1841 (process 18)
+ 22-11-2016 16:26:52 ** Working on loc#s 1842,1930 (process 19)
+ 22-11-2016 16:26:52 ** Working on loc#s 1931,2017 (process 20)
+ 22-11-2016 16:26:52 ** Working on loc#s 2018,2102 (process 21)
+ 22-11-2016 16:26:52 ** Working on loc#s 2103,2185 (process 22)
+ 22-11-2016 16:26:52 ** Working on loc#s 2186,2266 (process 23)
+ 22-11-2016 16:26:52 ** Working on loc#s 2267,2345 (process 24)
+ 22-11-2016 16:26:52 ** Working on loc#s 2346,2422 (process 25)
+ 22-11-2016 16:26:52 ** Working on loc#s 2423,2497 (process 26)
+ 22-11-2016 16:26:52 ** Working on loc#s 2498,2570 (process 27)
+ 22-11-2016 16:26:52 ** Working on loc#s 2571,2641 (process 28)
+ 22-11-2016 16:26:52 ** Working on loc#s 2642,2710 (process 29)
+ 22-11-2016 16:26:52 ** Working on loc#s 2711,2777 (process 30)
+ 22-11-2016 16:26:52 ** Working on loc#s 2778,2841 (process 31)
+ 22-11-2016 16:26:52 ** Working on loc#s 2842,2968 (process  1)
+ 22-11-2016 16:26:52 ** Working on loc#s    1, 125 (process  2)
+ 22-11-2016 16:26:52 ** Working on loc#s  370, 488 (process  5)
+ 22-11-2016 16:26:52 ** Working on loc#s  606, 719 (process  7)
+ 22-11-2016 16:26:53 ** Working on loc#s 2969,3091 (process  3)
+ 22-11-2016 16:26:53 ** Working on loc#s 3092,3212 (process  4)
+ 22-11-2016 16:26:53 ** Working on loc#s 3213,3329 (process  6)
+ 22-11-2016 16:26:53 ** Working on loc#s 3330,3441 (process  8)
+ 22-11-2016 16:26:53 ** Working on loc#s 3442,3551 (process  9)
+ 22-11-2016 16:26:53 ** Working on loc#s 3552,3659 (process 10)
+ 22-11-2016 16:26:53 ** Working on loc#s 3660,3765 (process 11)
+ 22-11-2016 16:26:53 ** Working on loc#s 3766,3869 (process 12)
+ 22-11-2016 16:26:53 ** Working on loc#s 3870,3971 (process 13)
+ 22-11-2016 16:26:53 ** Working on loc#s 3972,4000 (process 14)
+ 
+ 
+Next IMAGIC command suggested: DISPLAY-IMAGES

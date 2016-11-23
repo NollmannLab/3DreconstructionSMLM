@@ -1,0 +1,55 @@
+IMAGIC-COMMAND : m-r-a
+ 
+** MRALIGN (vs. 9-May-2016) welcomes you **
+ 
+ 
+MRA options:
+  FRESH  ADD_NEW_REFS  LOCAL_SEARCH
+Please specify option [FRESH]                      : 
+ 
+4D options:
+  ALL_REFERENCES  OWN_REF3D_REFERENCES
+Please specify option [ALL_REFERENCES]             : 
+ 
+Methods available:
+  ALIGNMENT  CORRELATION_ONLY
+Please specify option [ALIGNMENT]                  : 
+ 
+Alignment modes available:
+  HORIZONTAL            VERTICAL
+  TRANSLATIONAL         ROTATIONAL
+  BOTH (ROT AND TRANS)  BRUTE_FORCE
+Please specify option [BOTH (ROT AND TRANS)]       : 
+ 
+Options available:
+  ROTATION_FIRST  TRANSLATION_FIRST
+Please specify option [ROTATION_FIRST]             : 
+ 
+Correlation functions available:
+  CCF  MCF
+Please specify option [CCF]                        : 
+Input file, image loc#s [classums-1-200]           : 
+Output file, loc#s [classums-1-200-ali]            : 
+Original (pre-treated) file, loc#s
+[classums-1-200]                                   : 
+  
+**WARNING: Input and original file are the same
+  
+Reference file, loc#s [mra-ref1n]                  : 
+ 
+Options to filter the reference(s):
+  NO_FILTER                 LOWPASS_FILTER
+  BANDPASS_FILTER           CUT_OFF_HIGH_FREQUENCIES
+Please specify option [NO]                         : 
+Max shift (compared to original images) [0.2]      : 
+Min, max rot. angle (compared to originals)
+[-180,180]                                         : 
+ 
+Precision for rotational alignment:
+  LOW  MEDIUM  HIGH  INTERACTIVE
+Please specify option [HIGH]                       : 
+Min,max radius for rot alignment [0.0,0.6]         : 
+Number of alignment iterations [5]                 : 
+Full output of all parameters [NO]                 : 
+  
+Use MPI parallelisation [YES]                      :

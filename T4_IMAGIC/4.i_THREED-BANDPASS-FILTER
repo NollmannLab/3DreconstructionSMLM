@@ -1,0 +1,37 @@
+IMAGIC-COMMAND : THREED-BANDPASS-FILTER
+ 
+** FILTER3D (vs. 11-Jan-2016) welcomes you **
+ 
+Input 3D volume file [model]                       : 
+Output file [modelFilt]                            : 
+3D filter options                                  : BAND_PASS_FILTER
+Low frequency cut off [0.1]                        : 
+Low frequency transmission [0]                     : 
+High frequency cut off [0.5]                       : 0.4
+ 
+Image name: model.spi
+Size: 100, 100  Loc: 1  Type: REAL  Cre.Date: 30-May-2016  Time: 15:18:58
+EM2EM;
+
+ 22-11-2016 17:04:31 ** Am filtering 3D input volume(s)
+ 
+ 
+ 
+ Results are stored in the following files
+ =========================================
+ 
+ Filtered 3D volume(s)    : modelFilt
+ 
+ 
+ Follow-up operations include
+ ============================
+ 
+ THREED-AUTO-MASKING      : auto masking your filtered 3D volume(s)
+ THREED-SURFACE           : viewing the filtered 3D  results
+ THREED-FORWARD-PROJECTION: generating forward projections for MRA or angular
+                            reconstitution, or generating projected masks
+                            imposing on 2D images, input for 3D_RECONST
+ EM2EM                    : exporting results to other programs (like CHIMERA)
+ 
+ 
+Next IMAGIC command suggested: THREED-FORWARD-PROJECTION
